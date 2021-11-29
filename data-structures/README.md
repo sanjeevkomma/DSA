@@ -1,6 +1,6 @@
 # Data Structures
-* Linear data structure
-* Non-linear data structure
+* Linear data structure = Array,Stack,Queue,Linked list
+* Non-linear data structure = Trees,Graphs
 * Operations = Searching,Sorting,Insertion,Updation,Deletion
 * 
 
