@@ -14,6 +14,7 @@
 * Worst case --- It defines the input for which the algorithm takes a huge time.
 * Average case --- It takes average time for the program execution.
 * Best case --- It defines the input for which the algorithm takes the lowest time
+* We need algorithms because of the Scalability and Performance
 
 # Reference : 
   
