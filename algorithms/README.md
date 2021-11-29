@@ -7,9 +7,9 @@
 * Search Algorithm
 * Sort Algorithm
 # Asymptotic Notations
-* Big oh Notation (?) ( Worst case )
-* Omega Notation (Ω) ( Average case )
-* Theta Notation (θ) ( Best case )
+* Big oh Notation (?) --- ( Worst case )
+* Omega Notation (Ω) --- ( Average case )
+* Theta Notation (θ) --- ( Best case )
 
 
 
