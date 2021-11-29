@@ -7,7 +7,7 @@
 * Search Algorithm
 * Sort Algorithm
 # Asymptotic Notations
-1. Big oh Notation (?) --- ( Worst case )
+1. Big oh Notation (O) --- ( Worst case )
 2. Omega Notation (Ω) --- ( Average case )
 3. Theta Notation (θ) --- ( Best case )
 * Asymptotic Notations will be used to represent Time Complexity & Space Complexity of an Alogrithm
