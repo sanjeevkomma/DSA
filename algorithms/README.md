@@ -10,7 +10,7 @@
 1. Big oh Notation (O) --- ( Worst case )
 2. Omega Notation (Ω) --- ( Average case )
 3. Theta Notation (θ) --- ( Best case )
-# Common Asymptotic Notations Representation
+# Asymptotic Notations Representation
 1. constant --- O(1)
 2. linear --- O(n)
 3. logarithmic --- 	O(log n)
