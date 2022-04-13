@@ -1,7 +1,7 @@
 package com.demo;
 
 //Java code to explain double check locking
-public class MergeSort
+public class MergeSort_EX
 {
 	// private instance, so that it can be
 	// accessed by only by getInstance() method
