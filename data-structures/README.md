@@ -4,11 +4,28 @@
 
 # To Read
 # Linear data structure
-* Array,Stack,Queue,Linked list
+| #Data Structure  | #Comments |
+| :---: | :---: | 
+| Array |  |
+| Stack | |
+| Queue | |
+| Linked list | |
+
 # Non-linear data structure
-* Trees,Graphs
+| #Data Structure  | #Comments |
+| :---: | :---: | 
+| Trees |  |
+| Graphs | |
+
 # Operations
-* Searching,Sorting,Insertion,Updation,Deletion
+| #Operation | #Comments |
+| :---: | :---: | 
+| Searching |  |
+| Sorting | |
+| Insertion | |
+| Updation | |
+| Deletion | |
+
 
 # Tutorial
 * [Data Structures](https://www.geeksforgeeks.org/data-structures/)
