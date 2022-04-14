@@ -3,8 +3,10 @@
 # Terminology
 
 # To Read
-* Linear data structure = Array,Stack,Queue,Linked list
-* Non-linear data structure = Trees,Graphs
+# Linear data structure
+* Array,Stack,Queue,Linked list
+# Non-linear data structure
+* Trees,Graphs
 * Operations = Searching,Sorting,Insertion,Updation,Deletion
 
 # Tutorial
