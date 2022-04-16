@@ -29,7 +29,7 @@
 # Non-linear data structure
 | #Data Structure  | #Comments |
 | :---: | :---: | 
-| [Tree](https://www.javatpoint.com/tree) | [Binary Tree](https://www.javatpoint.com/binary-tree) , |
+| [Tree](https://www.javatpoint.com/tree) | [Binary Tree](https://www.javatpoint.com/binary-tree) , [](https://www.javatpoint.com/binary-search-tree)|
 | Graphs | |
 
 # Operations Performed on Data Structure
