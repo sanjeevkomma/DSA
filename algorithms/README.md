@@ -14,8 +14,14 @@
 * Operations = Searching,Sorting,Insertion,Updation,Deletion
 
 # Types of Algorithms
-* Search Algorithm
-* Sort Algorithm
+* Searching Algorithm
+* Sorting Algorithm
+
+# Searching & SortingAlgorithm
+| #Algorithm  | #Comments |
+| :---: | :---: | 
+| Searching Algorithm | 1. [Linear Search](https://www.javatpoint.com/linear-search) 2. [Binary Search](https://www.javatpoint.com/binary-search)|
+| Sorting Algorithm | 1. [Bubble Sort](https://www.javatpoint.com/bubble-sort) 2. [Bucket Sort](https://www.javatpoint.com/bucket-sort) |
 
 # Asymptotic Notations
 1. Big oh Notation (O) --- ( Worst case )
