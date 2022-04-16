@@ -49,6 +49,7 @@
 
 # Tutorial
 * [Data Structures](https://www.geeksforgeeks.org/data-structures/)
+* [Data Structures Basics](https://www.javatpoint.com/data-structure-tutorial)
 
 # Reference
 
