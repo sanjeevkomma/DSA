@@ -25,10 +25,9 @@
 
 
 # Searching Algorithm
-| #Algorithm  | #Comments |
-| :---: | :---: | 
-| [Linear Search](https://www.javatpoint.com/linear-search) | ![image](https://user-images.githubusercontent.com/7721150/163672221-b7b3caa2-1de8-4207-9b4c-4cd1896a7634.png)
-|
+| #Algorithm  | #Time Complexity | #Space Complexity |
+| :---: | :---: | :---: |
+| [Linear Search](https://www.javatpoint.com/linear-search) | ![image](https://user-images.githubusercontent.com/7721150/163672267-a20e0090-6f73-4eab-911a-a3e10f15fc5b.png) |![image](https://user-images.githubusercontent.com/7721150/163672279-bb670ef3-10a2-462a-ae8c-713881076b2b.png) |
 
 
 # Asymptotic Notations
