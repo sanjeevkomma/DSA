@@ -30,7 +30,7 @@
 | #Data Structure  | #Comments |
 | :---: | :---: | 
 | [Tree](https://www.javatpoint.com/tree) | 1. [Binary Tree](https://www.javatpoint.com/binary-tree) 2. [Binary Search tree](javatpoint.com/binary-search-tree) 3. [AVL Tree](https://www.javatpoint.com/avl-tree) 4. [B Tree](https://www.javatpoint.com/b-tree) 5. [B+ Tree](https://www.javatpoint.com/b-plus-tree) 6. [Red-black tree](https://www.javatpoint.com/red-black-tree)|
-| Graphs | |
+| [Graph](https://www.javatpoint.com/ds-graph) | 1. [Graph representation](https://www.javatpoint.com/graph-representation) 2. [BFS algorithm](https://www.javatpoint.com/breadth-first-search-algorithm) 3. [DFS algorithm](https://www.javatpoint.com/depth-first-search-algorithm) 4. [Spanning tree](https://www.javatpoint.com/spanning-tree)|
 
 # Operations Performed on Data Structure
 | #Operation | #Comments |
