@@ -21,10 +21,10 @@
 | Array |  |
 | Stack | |
 | Queue | |
-| Linked List | |
-| [Doubly Linked List](https://www.javatpoint.com/singly-linked-list) | |
-| Circular Linked List | |
-| Circular Doubly List | |
+| [Linked List](https://www.javatpoint.com/singly-linked-list)  | |
+| [Doubly Linked List](https://www.javatpoint.com/doubly-linked-list) | |
+| [Circular Linked List](https://www.javatpoint.com/circular-singly-linked-list) | |
+| [Circular Doubly List](https://www.javatpoint.com/circular-doubly-linked-list) | |
 
 
 # Non-linear data structure
