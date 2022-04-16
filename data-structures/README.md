@@ -19,9 +19,9 @@
 | #Data Structure  | #Comments |
 | :---: | :---: | 
 | [Array](https://www.javatpoint.com/data-structure-array) | [2D Array](https://www.javatpoint.com/data-structure-2d-array) |
-| [Stack](https://www.javatpoint.com/data-structure-stack) | 1. [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack) , 2. [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
-| [Queue](https://www.javatpoint.com/data-structure-queue) | 1. [Array Implementation of Queue](https://www.javatpoint.com/array-representation-of-queue) , 2. [Linked List implementation of Queue](https://www.javatpoint.com/linked-list-implementation-of-queue) , 3. [Circular Queue](https://www.javatpoint.com/circular-queue) , 4. [Deque - double-ended queue](https://www.javatpoint.com/ds-deque) , 5. [Priority Queue](https://www.javatpoint.com/ds-priority-queue) |
-| [Linked List](https://www.javatpoint.com/singly-linked-list)  | 1. [Doubly Linked List](https://www.javatpoint.com/doubly-linked-list) , 2. [Circular Linked List](https://www.javatpoint.com/circular-singly-linked-list) , 3. [Circular Doubly List](https://www.javatpoint.com/circular-doubly-linked-list) |
+| [Stack](https://www.javatpoint.com/data-structure-stack) | 1. [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack)  2. [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
+| [Queue](https://www.javatpoint.com/data-structure-queue) | 1. [Array Implementation of Queue](https://www.javatpoint.com/array-representation-of-queue)  2. [Linked List implementation of Queue](https://www.javatpoint.com/linked-list-implementation-of-queue)  3. [Circular Queue](https://www.javatpoint.com/circular-queue)  4. [Deque - double-ended queue](https://www.javatpoint.com/ds-deque)  5. [Priority Queue](https://www.javatpoint.com/ds-priority-queue) |
+| [Linked List](https://www.javatpoint.com/singly-linked-list)  | 1. [Doubly Linked List](https://www.javatpoint.com/doubly-linked-list)  2. [Circular Linked List](https://www.javatpoint.com/circular-singly-linked-list)  3. [Circular Doubly List](https://www.javatpoint.com/circular-doubly-linked-list) |
 
 
 
@@ -29,7 +29,7 @@
 # Non-linear data structure
 | #Data Structure  | #Comments |
 | :---: | :---: | 
-| [Tree](https://www.javatpoint.com/tree) | 1. [Binary Tree](https://www.javatpoint.com/binary-tree) 2. [Binary Search tree](javatpoint.com/binary-search-tree) |
+| [Tree](https://www.javatpoint.com/tree) | 1. [Binary Tree](https://www.javatpoint.com/binary-tree) 2. [Binary Search tree](javatpoint.com/binary-search-tree) 3. [AVL Tree](https://www.javatpoint.com/avl-tree) 4. [B Tree](https://www.javatpoint.com/b-tree) 5. [B+ Tree](https://www.javatpoint.com/b-plus-tree) 6. [Red-black tree](https://www.javatpoint.com/red-black-tree)|
 | Graphs | |
 
 # Operations Performed on Data Structure
