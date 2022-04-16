@@ -1,3 +1,4 @@
+package searching;
 public class BinarySearch_Ex { 
 
 	public static void main(String args[]) {  
