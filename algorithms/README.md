@@ -31,6 +31,11 @@
 | [Binary Search](https://www.javatpoint.com/binary-search) | ![image](https://user-images.githubusercontent.com/7721150/163672426-bc8e6a9d-409f-4ec1-9fec-975d0a49826f.png)|![image](https://user-images.githubusercontent.com/7721150/163672445-0df32fef-7d46-4113-b627-ab1bfb7d237c.png) |
 
 
+# Sorting Algorithm
+| #Algorithm  | #Time Complexity | #Space Complexity |
+| :---: | :---: | :---: |
+| [Bubble Sort](https://www.javatpoint.com/bubble-sort) | ![image](https://user-images.githubusercontent.com/7721150/163673395-0c33cfa9-0a77-46ee-80c0-c1100d54190e.png)| 1. The space complexity of bubble sort is O(1). It is because, in bubble sort, an extra variable is required for swapping 2. The space complexity of optimized bubble sort is O(2). It is because two extra variables are required in optimized bubble sort |
+
 # Asymptotic Notations
 1. Big oh Notation (O) --- ( Worst case )
 2. Omega Notation (Ω) --- ( Average case )
