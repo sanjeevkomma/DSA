@@ -19,7 +19,7 @@
 | #Data Structure  | #Comments |
 | :---: | :---: | 
 | Array |  |
-| Stack | |
+| [Stack](https://www.javatpoint.com/data-structure-stack) | [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack) , [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
 | Queue | |
 | [Linked List](https://www.javatpoint.com/singly-linked-list)  | |
 | [Doubly Linked List](https://www.javatpoint.com/doubly-linked-list) | |
