@@ -18,7 +18,7 @@
 # Linear data structure
 | #Data Structure  | #Comments |
 | :---: | :---: | 
-| Array |  |
+| [Array](https://www.javatpoint.com/data-structure-array) | [2D Array](https://www.javatpoint.com/data-structure-2d-array) |
 | [Stack](https://www.javatpoint.com/data-structure-stack) | [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack) , [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
 | Queue | |
 | [Linked List](https://www.javatpoint.com/singly-linked-list)  | |
