@@ -28,6 +28,7 @@
 | #Algorithm  | #Time Complexity | #Space Complexity |
 | :---: | :---: | :---: |
 | [Linear Search](https://www.javatpoint.com/linear-search) | ![image](https://user-images.githubusercontent.com/7721150/163672267-a20e0090-6f73-4eab-911a-a3e10f15fc5b.png) |![image](https://user-images.githubusercontent.com/7721150/163672279-bb670ef3-10a2-462a-ae8c-713881076b2b.png) |
+| [Binary Search](https://www.javatpoint.com/binary-search) | ![image](https://user-images.githubusercontent.com/7721150/163672426-bc8e6a9d-409f-4ec1-9fec-975d0a49826f.png)|![image](https://user-images.githubusercontent.com/7721150/163672445-0df32fef-7d46-4113-b627-ab1bfb7d237c.png) |
 
 
 # Asymptotic Notations
