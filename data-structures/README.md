@@ -22,7 +22,7 @@
 | Stack | |
 | Queue | |
 | Linked List | |
-| Doubly Linked List(https://www.javatpoint.com/singly-linked-list) | |
+| [Doubly Linked List](https://www.javatpoint.com/singly-linked-list) | |
 | Circular Linked List | |
 | Circular Doubly List | |
 
