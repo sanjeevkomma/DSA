@@ -1,10 +1,45 @@
-package com.demo;
+package sorting;
+
+//Sorting in Ascending order using Swap approach
 
 public class BubbleSort_Ex {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {    
 
-	}
+		int arr[] = {35, 10, 31, 11, 26};    
 
-}
+		bubbleSort(arr);  
+
+		System.out.println("After sorting array elements are - ");    
+
+		print(arr);  
+
+	} 
+
+	static void bubbleSort ( int arr[] )  {   // function to implement bubble sort in ascending order with Swap approach
+
+		for ( int i = 0; i < arr.length; i++ )  {  
+
+			for ( int j = i + 1; j < arr.length; j++ )   {  
+
+				if ( arr[i] > arr[j] )  {  
+
+					int temp = arr[i];  
+
+					arr[i] = arr[j];  
+
+					arr[j] = temp;  
+				}  
+			}  
+		}  
+	}  
+	
+	static void print ( int arr[] ) {  // function to print array elements  
+
+		for ( int i = 0; i < arr.length; i++ )  {  
+
+			System.out.print(arr[i] + " ");  
+		}         
+	}  
+
+}  
