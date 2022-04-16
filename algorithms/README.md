@@ -23,6 +23,14 @@
 | Searching Algorithm | 1. [Linear Search](https://www.javatpoint.com/linear-search) 2. [Binary Search](https://www.javatpoint.com/binary-search)|
 | Sorting Algorithm | 1. [Bubble Sort](https://www.javatpoint.com/bubble-sort) 2. [Bucket Sort](https://www.javatpoint.com/bucket-sort) 3. [Comb Sort](https://www.javatpoint.com/comb-sort) 4. [Counting Sort](https://www.javatpoint.com/counting-sort) 5. [Heap Sort](https://www.javatpoint.com/heap-sort) 6. [Insertion Sort](https://www.javatpoint.com/insertion-sort) 7. [Merge Sort](https://www.javatpoint.com/merge-sort) 8. [Quick Sort](https://www.javatpoint.com/quick-sort) 9. [Radix Sort](https://www.javatpoint.com/radix-sort) 10. [Selection Sort](https://www.javatpoint.com/selection-sort) 11. [Shell Sort](https://www.javatpoint.com/shell-sort) 12. [Bitonic Sort](https://www.javatpoint.com/bitonic-sort) 13. [Cocktail Sort](https://www.javatpoint.com/cocktail-sort) 14. [Cycle Sort](https://www.javatpoint.com/cycle-sort) 15. [Tim Sort](https://www.javatpoint.com/tim-sort) |
 
+
+# Searching Algorithm
+| #Algorithm  | #Comments |
+| :---: | :---: | 
+| [Linear Search](https://www.javatpoint.com/linear-search) | ![image](https://user-images.githubusercontent.com/7721150/163672221-b7b3caa2-1de8-4207-9b4c-4cd1896a7634.png)
+|
+
+
 # Asymptotic Notations
 1. Big oh Notation (O) --- ( Worst case )
 2. Omega Notation (Ω) --- ( Average case )
