@@ -1,6 +1,6 @@
 package sorting;
 
-//Sorting in Ascending order using Swap approach
+//Sorting in Ascending order using swapping approach
 
 public class BubbleSort_Ex {
 
@@ -16,7 +16,7 @@ public class BubbleSort_Ex {
 
 	} 
 
-	static void bubbleSort ( int arr[] )  {   // function to implement bubble sort in ascending order with Swap approach
+	static void bubbleSort ( int arr[] )  {   // function to implement bubble sort in ascending order with swapping approach
 
 		for ( int i = 0; i < arr.length; i++ )  {  
 
