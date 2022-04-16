@@ -21,10 +21,14 @@
 | [Array](https://www.javatpoint.com/data-structure-array) | [2D Array](https://www.javatpoint.com/data-structure-2d-array) |
 | [Stack](https://www.javatpoint.com/data-structure-stack) | [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack) , [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
 | Queue | |
+|[Circular Queue](https://www.javatpoint.com/circular-queue) | |
 | [Linked List](https://www.javatpoint.com/singly-linked-list)  | |
 | [Doubly Linked List](https://www.javatpoint.com/doubly-linked-list) | |
 | [Circular Linked List](https://www.javatpoint.com/circular-singly-linked-list) | |
 | [Circular Doubly List](https://www.javatpoint.com/circular-doubly-linked-list) | |
+| | |
+| | |
+| | |
 
 
 # Non-linear data structure
