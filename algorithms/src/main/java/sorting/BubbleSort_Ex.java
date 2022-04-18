@@ -1,16 +1,14 @@
 package sorting;
 
-//Sorting in Ascending order using swapping approach
+// Sorting in Ascending order using swapping approach
 
 public class BubbleSort_Ex {
 
 	public static void main(String[] args) {    
 
-		int arr[] = {35, 10, 31, 11, 26};    
+		int arr[] = { 35, 10, 31, 11, 26 };    
 
 		bubbleSort(arr);  
-
-		System.out.println("After sorting array elements are - ");    
 
 		print(arr);  
 
@@ -38,7 +36,7 @@ public class BubbleSort_Ex {
 
 		for ( int i = 0; i < arr.length; i++ )  {  
 
-			System.out.print(arr[i] + " ");  
+			System.out.print( arr[i] + " " );  
 		}         
 	}  
 

@@ -1,4 +1,7 @@
 package searching;
+
+// Binary search for sorted array with recursion
+
 public class BinarySearch_Ex { 
 
 	public static void main(String args[]) {  
@@ -7,51 +10,40 @@ public class BinarySearch_Ex {
 
 		int val = 37; // value to be searched  
 
-		int n = arr.length; // size of array  
+		// int n = arr.length; // size of array  
 
-		int res = binarySearch(arr, 0, n-1, val); // Store result  
+		int resultIndex = binarySearch(arr, 0, arr.length - 1, val); // Store result  
 
-		System.out.print("The elements of the array are: ");  
-
-		for (int i = 0; i < n; i++)  {  
-
-			System.out.print(arr[i] + " ");  
-		}  
-
-		System.out.println();  
-
-		System.out.println("Element to be searched is: " + val);  
-
-		if (res == -1)  
+		if (resultIndex == -1)  
 			System.out.println("Element is not present in the array");  
 		else  
-			System.out.println("Element is present at " + res + " position of array");  
+			System.out.println("Element is present at " + resultIndex + " position of array");  
 	}  
 
-	static int binarySearch(int arr[], int beg, int end, int val) {    
+	static int binarySearch( int arr[], int begIndex, int endIndex, int val ) {    
 
-		int mid;    
+		int midIndex;    
 
-		if( end >= beg ) {  
+		if( endIndex >= begIndex ) {  
 
-			mid = (beg + end)/2;    
+			midIndex = ( begIndex + endIndex ) / 2;    
 
-			if( arr[mid] == val )  {    
+			if( arr[midIndex] == val )  {    
 
-				return mid + 1;  // if the item to be searched is present at middle  
+				return midIndex + 1;  // if the item to be searched is present at middle  
 
 			}    
 
 			// if the item to be searched is smaller than middle, then it can only be in left sub array  
-			else if( arr[mid] < val )  {  
+			else if( arr[midIndex] < val )  {  
 
-				return binarySearch(arr, mid + 1, end, val);    
+				return binarySearch(arr, midIndex + 1, endIndex, val);    
 			}    
 
 			// if the item to be searched is greater than middle, then it can only be in right sub array  
 
 			else  {  
-				return binarySearch(arr, beg, mid-1, val);    
+				return binarySearch(arr, begIndex, midIndex-1, val);    
 			}    
 		}    
 

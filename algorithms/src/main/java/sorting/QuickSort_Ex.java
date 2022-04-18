@@ -1,4 +1,4 @@
-package com.demo;
+package sorting;
 
 public class QuickSort_Ex {
 

@@ -8,35 +8,21 @@ public class LinearSearch_EX {
 
 		int val = 10; // value to be searched  
 
-		int length = arr.length; // size of array  
+		int resultIndex = linearSearch( arr, arr.length, val ); // Store result  
 
-		int res = linearSearch(arr, length, val); // Store result  
-
-		System.out.println();  
-
-		System.out.print("The elements of the array are - ");  
-
-		for (int i = 0; i < length; i++)  
-			System.out.print(" " + arr[i]);  
-
-		System.out.println();  
-
-		System.out.println("Element to be searched is - " + val);  
-
-		if (res == -1)  
+		if (resultIndex == -1)  
 			System.out.println("Element is not present in the array");  
 		else  
-			System.out.println("Element is present at " + res +" position of array");  
+			System.out.println("Element is present at " + resultIndex +" position of array");  
 	}  
 
-	static int linearSearch(int arr[], int length, int val) {  
+	static int linearSearch( int arr[], int arrLength, int val) {  
 
-		// Going through array sequencially  
-		for (int i = 0; i < length; i++)  {  
+		for ( int i = 0; i < arrLength; i++ )  {  
 
-			if (arr[i] == val)  
+			if ( arr[i] == val )  
 
-				return i+1;  
+				return i + 1 ;  
 		}  
 
 		return -1;  
