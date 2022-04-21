@@ -1,4 +1,4 @@
-package com.demo;
+
 
 /**
  * Java program to find middle element of linked list in one pass.
@@ -13,7 +13,7 @@ package com.demo;
  *
  * 
  */
-public class LinkedListTest {
+public class LinkedList_MiddleElement {
 
 
 	public static void main(String args[]) {
