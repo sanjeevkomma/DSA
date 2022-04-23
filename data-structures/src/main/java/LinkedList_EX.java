@@ -15,7 +15,9 @@ class Node {
 
 class CustomLinkedList {
 
-	Node head; 
+	private Node head; 
+	
+	// private Node tail;
 
 	public CustomLinkedList add( CustomLinkedList list, int data ) {
 
@@ -48,18 +50,49 @@ class CustomLinkedList {
 		// Return the list by head
 		return list;
 	}
+	
+	public void findMiddleElement(CustomLinkedList list) {
+
+		Node current = list.head;
+
+		Node middle = list.head;
+
+		int length = 0;
+
+		while( current.next != null ) {
+
+			length ++ ;
+
+			if( length % 2 == 0 ) {
+
+				middle = middle.next;
+
+			}
+
+			current = current.next;
+		}
+
+		if( length % 2 == 1 ){
+
+			middle = middle.next;
+		}
+
+		System.out.println("length of LinkedList: " + length );
+		
+		System.out.println("middle element of LinkedList : " + middle.data );
+	}
 
 	public void printList(CustomLinkedList list) {
 
 		Node currNode = list.head;
 
-		System.out.print("LinkedList: ");
+		System.out.println("LinkedList: ");
 
 		while ( currNode != null ) {
 
 			// Print the data at current node
 
-			System.out.print(currNode.data + " ");
+			System.out.println(currNode.data + " ");
 
 			// Go to next node
 
@@ -86,6 +119,8 @@ public class LinkedList_EX {
 		list = list.add(list, 8);
 
 		list.printList(list);
+		
+		list.findMiddleElement(list);
 	}
 
 }
