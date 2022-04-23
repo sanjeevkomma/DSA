@@ -3,107 +3,98 @@ class Node {
 
 	int data;
 
-	Node next;
+	Node nextNode;
 
 	Node( int data ) { 
 
 		this.data = data;
 
-		this.next = null; 
+		this.nextNode = null; 
 	}
 }
 
 class CustomLinkedList {
 
-	private Node head; 
-	
-	private Node tail;
-	
-	/*public CustomLinkedList(){
-
-		this.head = new Node("head");
-
-		tail = head;
-	}*/
+	private Node headNode; 
 
 	public CustomLinkedList add( CustomLinkedList list, int data ) {
 
 		// Create a new node with given data
 
-		Node new_node = new Node(data);
+		Node newNode = new Node(data);
 
 		// If the Linked List is empty, then make the new node as head
 
-		if ( list.head == null ) {
+		if ( list.headNode == null ) {
 
-			list.head = new_node;
+			list.headNode = newNode;
 		}
 
 		else {
 
 			// Else traverse till the last node and insert the new_node there
 
-			Node last = list.head;
+			Node lastNode = list.headNode;
 
-			while ( last.next != null ) {
+			while ( lastNode.nextNode != null ) {
 
-				last = last.next;
+				lastNode = lastNode.nextNode;
 			}
 
 			// Insert the new_node at last node
-			last.next = new_node;
+			lastNode.nextNode = newNode;
 		}
 
 		// Return the list by head
 		return list;
 	}
-	
+
 	public void findMiddleElement(CustomLinkedList list) {
 
-		Node current = list.head;
+		Node currentNode = list.headNode;
 
-		Node middle = list.head;
+		Node middleNode = list.headNode;
 
 		int length = 0;
 
-		while( current.next != null ) {
+		while( currentNode.nextNode != null ) {
 
 			length ++ ;
 
 			if( length % 2 == 0 ) {
 
-				middle = middle.next;
+				middleNode = middleNode.nextNode;
 
 			}
 
-			current = current.next;
+			currentNode = currentNode.nextNode;
 		}
 
 		if( length % 2 == 1 ){
 
-			middle = middle.next;
+			middleNode = middleNode.nextNode;
 		}
 
 		System.out.println("length of LinkedList: " + length );
-		
-		System.out.println("middle element of LinkedList : " + middle.data );
+
+		System.out.println("middle element of LinkedList : " + middleNode.data );
 	}
 
 	public void printList(CustomLinkedList list) {
 
-		Node currNode = list.head;
+		Node currentNode = list.headNode;
 
 		System.out.println("LinkedList: ");
 
-		while ( currNode != null ) {
+		while ( currentNode != null ) {
 
 			// Print the data at current node
 
-			System.out.println(currNode.data + " ");
+			System.out.println(currentNode.data + " ");
 
 			// Go to next node
 
-			currNode = currNode.next;
+			currentNode = currentNode.nextNode;
 		}
 	}
 
@@ -116,17 +107,17 @@ public class LinkedList_EX {
 
 		CustomLinkedList list = new CustomLinkedList();
 
-		list = list.add(list, 1);
+		list = list.add(list, 10);
 		list = list.add(list, 2);
-		list = list.add(list, 3);
+		list = list.add(list, 53);
 		list = list.add(list, 4);
-		list = list.add(list, 5);
-		list = list.add(list, 6);
-		list = list.add(list, 7);
+		list = list.add(list, 65);
+		list = list.add(list, 26);
+		list = list.add(list, 87);
 		list = list.add(list, 8);
 
 		list.printList(list);
-		
+
 		list.findMiddleElement(list);
 	}
 
