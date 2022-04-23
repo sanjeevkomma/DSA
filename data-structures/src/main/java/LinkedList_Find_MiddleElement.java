@@ -15,7 +15,7 @@
  */
 
 
-class Node {
+class Nodedd {
 
 	private String data;
 
