@@ -17,7 +17,14 @@ class CustomLinkedList {
 
 	private Node head; 
 	
-	// private Node tail;
+	private Node tail;
+	
+	/*public CustomLinkedList(){
+
+		this.head = new Node("head");
+
+		tail = head;
+	}*/
 
 	public CustomLinkedList add( CustomLinkedList list, int data ) {
 
