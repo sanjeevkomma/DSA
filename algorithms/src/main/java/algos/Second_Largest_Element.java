@@ -16,13 +16,15 @@ public class Second_Largest_Element {
 
 		int arr[] = { 12, 435, 1, 15, 84, 10 };
 
-		secondLargestElement(arr);
+		secondLargestElement_InUnSortedArray(arr);
 
 	}
 
-	public static void secondLargestElement( int arr[]  ) {
+	public static void secondLargestElement_InUnSortedArray( int arr[]  ) {
 
 		int firstElement, secondElement ;
+		
+		firstElement = secondElement = 0 ;
 
 		if ( arr.length < 2 ) {
 
@@ -30,8 +32,6 @@ public class Second_Largest_Element {
 
 			return ;
 		}
-
-		firstElement = secondElement = Integer.MIN_VALUE;
 
 		for ( int i = 0; i < arr.length; i++ ) {
 
@@ -47,7 +47,7 @@ public class Second_Largest_Element {
 				secondElement = arr[i];
 		}
 
-		if ( secondElement == Integer.MIN_VALUE )
+		if ( secondElement == 0 )
 
 			System.out.print( "There is no second largest" );
 
