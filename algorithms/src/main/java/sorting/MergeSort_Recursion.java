@@ -1,40 +1,40 @@
 package sorting;
 
-public class MergeSort_EX { // Function to merge the sub arrays of arr[]  
+public class MergeSort_Recursion { // Function to merge the sub arrays of arr[]  
 
 	public static void main( String args[])  {  
 
-		int arr[] = { 222, 0, 11, 30, 24, 7, 31, 16, 39 };  
+		int arr[] = { 222, 0, -11, 30, 24, -7, 31, 16, 39 };  
 
 		mergeSort(arr, 0, arr.length - 1);  
 
 		System.out.println("After sorting array elements are - ");  
 
-		printArray(arr, arr.length);  
+		printArray(arr);  
 
 	}  
 
-	static void mergeSort( int arr[], int beg, int end ) {  
+	static void mergeSort( int arr[], int begIndex, int endIndex ) {  
 
-		if ( beg < end )   {  
+		if ( begIndex < endIndex )   {  
 
-			int mid = ( beg + end ) / 2;  
+			int midIndex = ( begIndex + endIndex ) / 2;  
 
-			mergeSort(arr, beg, mid);  
+			mergeSort(arr, begIndex, midIndex);  
 
-			mergeSort(arr, mid + 1, end);  
+			mergeSort(arr, midIndex + 1, endIndex);  
 
-			merge(arr, beg, mid, end);  
+			merge(arr, begIndex, midIndex, endIndex);  
 		}  
 	}
 
-	static void  merge( int arr[], int beg, int mid, int end )   {    
+	static void  merge( int arr[], int begIndex, int midIndex, int endIndex )   {    
 
 		int i, j, k;  
 
-		int n1 = mid - beg + 1;    
+		int n1 = midIndex - begIndex + 1;    
 
-		int n2 = end - mid;    
+		int n2 = endIndex - midIndex;    
 
 		/* temporary Arrays */  
 
@@ -45,17 +45,17 @@ public class MergeSort_EX { // Function to merge the sub arrays of arr[]
 		/* copy data to temp arrays */  
 		for ( i = 0; i < n1; i ++ ) {   
 
-			leftArray[i] = arr[beg + i];   } 
+			leftArray[i] = arr[begIndex + i];   } 
 
 		for ( j = 0; j < n2; j++ )  {  
 
-			rightArray[j] = arr[mid + 1 + j];  }  
+			rightArray[j] = arr[midIndex + 1 + j];  }  
 
 		i = 0; /* initial index of first sub-array */  
 
 		j = 0; /* initial index of second sub-array */   
 
-		k = beg;  /* initial index of merged sub-array */  
+		k = begIndex;  /* initial index of merged sub-array */  
 
 		while ( i < n1 && j < n2 )  {    
 
@@ -97,9 +97,9 @@ public class MergeSort_EX { // Function to merge the sub arrays of arr[]
 
 
 
-	static void printArray(int arr[], int length)  {  
+	static void printArray(int arr[] )  {  
 
-		for  ( int i = 0; i < length; i++ )  
+		for  ( int i = 0; i < arr.length; i++ )  
 
 			System.out.print(arr[i] + " ");  
 	}  

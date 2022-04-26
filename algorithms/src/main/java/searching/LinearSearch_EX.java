@@ -4,11 +4,11 @@ public class LinearSearch_EX {
 
 	public static void main(String args[]) {  
 
-		int arr[] = { 55, 29, 10, 40, 57, 41, 20, 24, 45 }; // given array  
+		int arr[] = { 55, 29, -10, 40, 57, -41, 20, 24, 45 };  
 
-		int val = 10; // value to be searched  
+		int val = -10; // value to be searched  
 
-		int resultIndex = linearSearch_In_UnSortedArray( arr,  val ); // Store result  
+		int resultIndex = linearSearch_In_UnSortedArray( arr,  val );   
 
 		if ( resultIndex == -1 )  
 
@@ -25,7 +25,7 @@ public class LinearSearch_EX {
 
 			if ( arr[i] == val )  
 
-				return i + 1 ;  
+				return i  ;  
 		}  
 
 		return -1;  

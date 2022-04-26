@@ -2,19 +2,19 @@ package sorting;
 
 // Sorting in Ascending order using swapping approach
 
-public class BubbleSort_Ex {
+public class BubbleSort_Swapping {
 
 	public static void main(String[] args) {    
 
-		int arr[] = { 35, 10, 31, 11, 26 };    
+		int arr[] = { 35, 10, -31, -11, 26 };    
 
-		bubbleSort(arr);  
+		bubbleSort_With_Swapping(arr);  
 
 		print(arr);  
 
 	} 
 
-	static void bubbleSort ( int arr[] )  {   // function to implement bubble sort in ascending order with swapping approach
+	static void bubbleSort_With_Swapping ( int arr[] )  {   // function to implement bubble sort in ascending order with swapping approach
 
 		for ( int i = 0; i < arr.length; i++ )  {  
 

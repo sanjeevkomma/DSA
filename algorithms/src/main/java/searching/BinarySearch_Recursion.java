@@ -6,7 +6,7 @@ public class BinarySearch_Recursion {
 
 	public static void main(String args[]) {  
 
-		int arr[] = { 8, 10, 22, 27, 37, 44, 49, 55, 69 }; // sorted given array  
+		int arr[] = { 8, 10, 22, -27, 37, 44, -49, 0,55, 69 }; // sorted given array  
 
 		int val = 37; // value to be searched  
 
@@ -31,24 +31,25 @@ public class BinarySearch_Recursion {
 
 			if( arr[midIndex] == val )  {    
 
-				return midIndex + 1;  // if the item to be searched is present at middle  
+				return midIndex ;  // if the item to be searched is present at middle  
 
 			}    
 
 			// if the item to be searched is smaller than middle, then it can only be in left sub array  
 			else if( arr[midIndex] < val )  {  
 
-				return binarySearch_In_SortedArray(arr, midIndex + 1, endIndex, val);    
+				return binarySearch_In_SortedArray(arr, midIndex + 1, endIndex, val); // Recursion   
 			}    
 
 			// if the item to be searched is greater than middle, then it can only be in right sub array  
 
-			else  {  
-				return binarySearch_In_SortedArray(arr, begIndex, midIndex-1, val);    
+			else  if( arr[midIndex] > val ) {  
+				
+				return binarySearch_In_SortedArray(arr, begIndex, midIndex-1, val); // Recursion   
 			}    
 		}    
 
-		return -1;    
+		return -1 ;    
 	}   
 
 }  

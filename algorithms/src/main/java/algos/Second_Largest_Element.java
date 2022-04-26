@@ -14,7 +14,7 @@ public class Second_Largest_Element {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 12, 435, 1, 15, 84, 10 };
+		int arr[] = { 12, 435, -1, 15, -84, 10 };
 
 		secondLargestElement_In_UnSortedArray(arr);
 
