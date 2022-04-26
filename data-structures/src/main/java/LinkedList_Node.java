@@ -101,7 +101,7 @@ class CustomLinkedList {
 }
 
 
-public class LinkedList_EX {
+public class LinkedList_Node {
 
 	public static void main(String[] args) {
 

@@ -6,9 +6,9 @@ public class BinarySearch_Recursion {
 
 	public static void main(String args[]) {  
 
-		int arr[] = { 8, 10, 22, -27, 37, 44, -49, 0,55, 69 }; // sorted given array  
+		int arr[] = { -49 , -27 , 0 , 8, 10, 22, 37, 44, 55, 69 }; // sorted given array in Ascending Order 
 
-		int val = 37; // value to be searched  
+		int val = -27; // value to be searched  
 
 		int resultIndex = binarySearch_In_SortedArray(arr, 0, arr.length - 1, val); 
 
@@ -18,12 +18,12 @@ public class BinarySearch_Recursion {
 
 		else  
 
-			System.out.println("Element is present at " + resultIndex + " position of array");  
+			System.out.println("Element is present at " + ( resultIndex + 1) + " position of array");  
 	}  
 
 	static int binarySearch_In_SortedArray( int arr[], int begIndex, int endIndex, int val ) {    
 
-		int midIndex;    
+		int midIndex ;    
 
 		if( endIndex >= begIndex ) {  
 
