@@ -8,17 +8,20 @@ public class LinearSearch_EX {
 
 		int val = 10; // value to be searched  
 
-		int resultIndex = linearSearch( arr, arr.length, val ); // Store result  
+		int resultIndex = linearSearch_In_UnSortedArray( arr,  val ); // Store result  
 
-		if (resultIndex == -1)  
+		if ( resultIndex == -1 )  
+
 			System.out.println("Element is not present in the array");  
+
 		else  
+
 			System.out.println("Element is present at " + resultIndex +" position of array");  
 	}  
 
-	static int linearSearch( int arr[], int arrLength, int val) {  
+	static int linearSearch_In_UnSortedArray( int arr[],  int val ) {  
 
-		for ( int i = 0; i < arrLength; i++ )  {  
+		for ( int i = 0; i < arr.length ; i++ )  {  
 
 			if ( arr[i] == val )  
 

@@ -16,30 +16,24 @@ public class Second_Largest_Element {
 
 		int arr[] = { 12, 435, 1, 15, 84, 10 };
 
-		secondLargestElement_InUnSortedArray(arr);
+		secondLargestElement_In_UnSortedArray(arr);
 
 	}
 
-	public static void secondLargestElement_InUnSortedArray( int arr[]  ) {
+	public static void secondLargestElement_In_UnSortedArray( int arr[]  ) {
 
-		int firstElement, secondElement ;
+		int firstElement = 0 , secondElement = 0 ;
 		
-		firstElement = secondElement = 0 ;
-
-		if ( arr.length < 2 ) {
-
-			System.out.print(" Invalid Input ");
-
-			return ;
-		}
-
 		for ( int i = 0; i < arr.length; i++ ) {
 
 			if ( arr[i] > firstElement ) {
 
 				secondElement = firstElement;
 
-				firstElement = arr[i];
+				firstElement = arr[i];  // second = 0,  first = 12
+				                        // second = 12, first = 435
+				                        // second = 15, first = 435
+				                        // second = 84, first = 435
 			}
 
 			else if ( arr[i] > secondElement && arr[i] != firstElement )

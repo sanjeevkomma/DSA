@@ -2,7 +2,7 @@ package searching;
 
 // Binary search for sorted array with recursion
 
-public class BinarySearch_Ex { 
+public class BinarySearch_Recursion { 
 
 	public static void main(String args[]) {  
 
@@ -10,7 +10,7 @@ public class BinarySearch_Ex {
 
 		int val = 37; // value to be searched  
 
-		int resultIndex = binarySearchInSortedArray(arr, 0, arr.length - 1, val); 
+		int resultIndex = binarySearch_In_SortedArray(arr, 0, arr.length - 1, val); 
 
 		if ( resultIndex == -1 )  
 
@@ -21,7 +21,7 @@ public class BinarySearch_Ex {
 			System.out.println("Element is present at " + resultIndex + " position of array");  
 	}  
 
-	static int binarySearchInSortedArray( int arr[], int begIndex, int endIndex, int val ) {    
+	static int binarySearch_In_SortedArray( int arr[], int begIndex, int endIndex, int val ) {    
 
 		int midIndex;    
 
@@ -38,13 +38,13 @@ public class BinarySearch_Ex {
 			// if the item to be searched is smaller than middle, then it can only be in left sub array  
 			else if( arr[midIndex] < val )  {  
 
-				return binarySearchInSortedArray(arr, midIndex + 1, endIndex, val);    
+				return binarySearch_In_SortedArray(arr, midIndex + 1, endIndex, val);    
 			}    
 
 			// if the item to be searched is greater than middle, then it can only be in right sub array  
 
 			else  {  
-				return binarySearchInSortedArray(arr, begIndex, midIndex-1, val);    
+				return binarySearch_In_SortedArray(arr, begIndex, midIndex-1, val);    
 			}    
 		}    
 
