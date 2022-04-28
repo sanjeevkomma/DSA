@@ -1,6 +1,6 @@
 package searching;
 
-public class LinearSearch_EX {
+public class LinearSearch_UnSorted {
 
 	public static void main(String args[]) {  
 

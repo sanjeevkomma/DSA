@@ -2,7 +2,7 @@ package searching;
 
 // Binary search for sorted array with recursion
 
-public class BinarySearch_Recursion { 
+public class BinarySearch_Recursion_Sorted { 
 
 	public static void main(String args[]) {  
 
