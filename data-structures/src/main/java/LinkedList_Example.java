@@ -15,7 +15,7 @@ public class LinkedList_Example {
 
 		list.deleteAt(2);
 		
-		list.findMiddleElement(list);
+		list.findMiddleElement();
 
 		list.show();
 	}
@@ -85,7 +85,7 @@ class CustomLinkedList {
 
 			Node currentNode = headNode;
 
-			for(int i = 0; i < index - 1; i++) {
+			for( int i = 0; i < index - 1; i++ ) {
 
 				currentNode = currentNode.nextNode;
 			}
@@ -138,11 +138,11 @@ class CustomLinkedList {
 	}
 
 	// findMiddleElement
-	public void findMiddleElement(CustomLinkedList list) {
+	public void findMiddleElement() {
 
-		Node currentNode = list.headNode;
+		Node currentNode = headNode;
 
-		Node middleNode = list.headNode;
+		Node middleNode = headNode;
 
 		int length = 0;
 
