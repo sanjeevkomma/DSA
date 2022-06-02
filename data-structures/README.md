@@ -40,6 +40,14 @@
 |3 | Insertion | |
 |4 | Updation | |
 |5 | Deletion | |
+|6 | Traversal - Accessing a particular data | |
+
+# Operations Performed on Data Structure
+|SNo| #DataStructure | #Operation | #Algorithm | #Time Complexity | #Space Complexity |
+| :---:| :---: | :---: | :---: |:---: |:---: |
+|1 | ArrayList | Access an element | |  | |
+
+
 
 # Advantages of a Data Structure
 1. Efficiency
