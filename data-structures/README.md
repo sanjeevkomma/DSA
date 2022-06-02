@@ -45,8 +45,8 @@
 # DataStructure Algorithm Time & Space Complexity
 |SNo| #DataStructure | #Operation | #Intent | #Time Complexity(Worest Case) | #Space Complexity |
 | :---:| :---: | :---: | :---: |:---: |:---: |
-|1 | ArrayList | Access an element |Index based | O(1)  |O(n) | 
-
+|1 | ArrayList | Access an element |Index based / indexed array | O(1)  |O(n) | 
+|2 | ArrayList | Delete an element |Index based / indexed array| O(1)  |O(n) | 
 
 
 # Advantages of a Data Structure
