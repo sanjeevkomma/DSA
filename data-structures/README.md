@@ -45,11 +45,11 @@
 # DataStructure Time & Space Complexity
 |SNo| #DataStructure | #Operation | #Intent | #Time Complexity(Worest Case) | #Space Complexity |
 | :---:| :---: | :---: | :---: |:---: |:---: |
-|1 | ArrayList | Access an element |Index based / indexed array | O(1)  |O(n) | 
+|1 | ArrayList | Access an element |indexed array | O(1)  |O(n) | 
 |2 | ArrayList | Delete an element |Index based / indexed array| O(1)  |O(n) | 
-|3 | HashMap | insertion and lookup |insertion and lookup| O(1)  | |
-|4 | LinkedHashMap | insertion and lookup |insertion and lookup| O(1)  | |
-|5 | TreeMap | insertion and lookup |insertion and lookup| O(logN)  | |
+|3 | HashMap | insertion and lookup |hashing function| O(1)  | |
+|4 | LinkedHashMap | insertion and lookup |hashing function| O(1)  | |
+|5 | TreeMap | insertion and lookup |hashing function| O(logN)  | |
 
 # Advantages of a Data Structure
 1. Efficiency
