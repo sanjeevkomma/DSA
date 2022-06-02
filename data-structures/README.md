@@ -42,8 +42,8 @@
 |5 | Deletion | |
 |6 | Traversal - Accessing a particular data | |
 
-# Operations Performed on Data Structure
-|SNo| #DataStructure | #Operation | #Algorithm | #Time Complexity | #Space Complexity |
+# DataStructure Algorithm Time & Space Complexity
+|SNo| #DataStructure | #Operation | #Algorithm | #Time Complexity(Worest Case) | #Space Complexity |
 | :---:| :---: | :---: | :---: |:---: |:---: |
 |1 | ArrayList | Access an element | |  | |
 
