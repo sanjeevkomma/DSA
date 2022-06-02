@@ -43,9 +43,9 @@
 |6 | Traversal - Accessing a particular data | |
 
 # DataStructure Algorithm Time & Space Complexity
-|SNo| #DataStructure | #Operation | #Algorithm | #Time Complexity(Worest Case) | #Space Complexity |
-| :---:| :---: | :---: | :---: |:---: |:---: |
-|1 | ArrayList | Access an element | |  | |
+|SNo| #DataStructure | #Operation | #Intent | #Time Complexity(Worest Case) | #Space Complexity |
+| :---:| :---: | :---: | :---: |:---: |:---: |:---: |
+|1 | ArrayList | Access an element |Index based | O(1)  |O(n) | 
 
 
 
