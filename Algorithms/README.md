@@ -59,6 +59,7 @@
 # Reference
 * [Why is O(N) sorting impossible?](https://www.youtube.com/watch?v=4Q72kbwyEmk&list=RDCMUCRPMAqdtSgd0Ipeef7iFsKw&index=25)
 * [BFS Algorithm](https://www.javatpoint.com/breadth-first-search-algorithm)
+* [Is-O-log-n-always-faster-than-O-n -- Quora](https://www.quora.com/Is-O-log-n-always-faster-than-O-n)
   
 # Images
 1. Asymptotic Notations Representation
