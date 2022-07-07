@@ -51,9 +51,11 @@
 6. cubic --- O(n3)
 7. polynomial --- nO(1)
 8. quadratic --- O(n2)
-
+* ![image](https://user-images.githubusercontent.com/7721150/177767972-8abe6522-fcaf-429c-8a70-7056b646e6b7.png)
 
 # Reference
 * [Why is O(N) sorting impossible?](https://www.youtube.com/watch?v=4Q72kbwyEmk&list=RDCMUCRPMAqdtSgd0Ipeef7iFsKw&index=25)
 * [BFS Algorithm](https://www.javatpoint.com/breadth-first-search-algorithm)
   
+
+
