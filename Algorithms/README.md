@@ -43,14 +43,17 @@
 3. Theta Notation (θ) --- ( Best case )
 
 # Asymptotic Notations Representation
-1. constant --- O(1)
-2. linear --- O(n)
-3. logarithmic --- 	O(log n)
-4. n log n --- O(n log n)
-5. exponential --- 2O(n)
-6. cubic --- O(n3)
-7. polynomial --- nO(1)
-8. quadratic --- O(n2)
+|SNo| #Notation  | ##Intent |
+| :---: | :---: | :---: |
+| 1 | constant | O(1) |
+| 2 | linear |O(n) |
+| 3 | logarithmic |O(log n) |
+| 4 | n log n |O(n log n) |
+| 5 | exponential |2O(n) |
+| 6 | cubic |O(n3) |
+| 7 | polynomial |nO(1) |
+| 8 | quadratic |O(n2) |
+
 * ![image](https://user-images.githubusercontent.com/7721150/177767972-8abe6522-fcaf-429c-8a70-7056b646e6b7.png)
 
 # Reference
