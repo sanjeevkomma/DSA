@@ -36,9 +36,7 @@
 | :---: | :---: | :---: |
 | [Bubble Sort](https://www.javatpoint.com/bubble-sort) | Best Case = O(n) , Average Case = O(n2) , Worst Case = O(n2)| 1. The space complexity of bubble sort is O(1). It is because, in bubble sort, an extra 1 variable is required for swapping 2. The space complexity of optimized bubble sort is O(2). It is because  extra 2 variables are required in optimized bubble sort |
 |[Merge Sort](https://www.javatpoint.com/merge-sort)|Best Case = O(n*logn) , Average Case = O(n*logn), Worst Case = O(n*logn)|The space complexity of merge sort is O(n). It is because, in merge sort, an extra variable is required for swapping|
-|[Quick Sort](https://www.javatpoint.com/quick-sort)|Best Case = O(n*logn) 
-Average Case = O(n*logn)
-Worst Case = O(n2)|The space complexity of merge sort is O(n). It is because, in merge sort, an extra variable is required for swapping|
+|[Quick Sort](https://www.javatpoint.com/quick-sort)|Best Case = O(n*logn) , Average Case = O(n*logn) , Worst Case = O(n2)|The space complexity of quick sort is O(n*logn)|
 
 # Asymptotic Notations
 1. Big oh Notation (O) --- ( Worst case )
