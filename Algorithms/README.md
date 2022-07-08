@@ -44,7 +44,7 @@
 3. Theta Notation (θ) --- ( Best case )
 
 # Asymptotic Notations Representation
-|SNo| #Notation  | ##Intent |
+|SNo| #Type  | #Notation |
 | :---: | :---: | :---: |
 | 1 | constant | O(1) |
 | 2 | linear |O(n) |
