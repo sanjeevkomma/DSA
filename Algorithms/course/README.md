@@ -22,9 +22,9 @@
 
 # Searching & Sorting Algorithm
 |#SNo| #Algorithm  | #Comments |
-| :---: | :---: | :---: | 
-|1| Searching Algorithm | 1. [Linear Search](https://www.javatpoint.com/linear-search) 2. [Binary Search](https://www.javatpoint.com/binary-search)|
-|2| Sorting Algorithm | 1. [Bubble Sort](https://www.javatpoint.com/bubble-sort) 2. [Bucket Sort](https://www.javatpoint.com/bucket-sort) 3. [Comb Sort](https://www.javatpoint.com/comb-sort) 4. [Counting Sort](https://www.javatpoint.com/counting-sort) 5. [Heap Sort](https://www.javatpoint.com/heap-sort) 6. [Insertion Sort](https://www.javatpoint.com/insertion-sort) 7. [Merge Sort](https://www.javatpoint.com/merge-sort) 8. [Quick Sort](https://www.javatpoint.com/quick-sort) 9. [Radix Sort](https://www.javatpoint.com/radix-sort) 10. [Selection Sort](https://www.javatpoint.com/selection-sort) 11. [Shell Sort](https://www.javatpoint.com/shell-sort) 12. [Bitonic Sort](https://www.javatpoint.com/bitonic-sort) 13. [Cocktail Sort](https://www.javatpoint.com/cocktail-sort) 14. [Cycle Sort](https://www.javatpoint.com/cycle-sort) 15. [Tim Sort](https://www.javatpoint.com/tim-sort) |
+| :--- | :--- | :--- | 
+|1| Searching Algorithm | 1. [Linear Search](https://www.javatpoint.com/linear-search) <br>2. [Binary Search](https://www.javatpoint.com/binary-search)|
+|2| Sorting Algorithm | 1. [Bubble Sort](https://www.javatpoint.com/bubble-sort) <br>2. [Bucket Sort](https://www.javatpoint.com/bucket-sort) <br>3. [Comb Sort](https://www.javatpoint.com/comb-sort) <br>4. [Counting Sort](https://www.javatpoint.com/counting-sort) <br>5. [Heap Sort](https://www.javatpoint.com/heap-sort) <br>6. [Insertion Sort](https://www.javatpoint.com/insertion-sort) <br>7. [Merge Sort](https://www.javatpoint.com/merge-sort) <br>8. [Quick Sort](https://www.javatpoint.com/quick-sort) <br>9. [Radix Sort](https://www.javatpoint.com/radix-sort) <br>10. [Selection Sort](https://www.javatpoint.com/selection-sort) <br>11. [Shell Sort](https://www.javatpoint.com/shell-sort) <br>12. [Bitonic Sort](https://www.javatpoint.com/bitonic-sort) <br>13. [Cocktail Sort](https://www.javatpoint.com/cocktail-sort) <br>14. [Cycle Sort](https://www.javatpoint.com/cycle-sort) <br>15. [Tim Sort](https://www.javatpoint.com/tim-sort) |
 
 
 # Searching Algorithm
