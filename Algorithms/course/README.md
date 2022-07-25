@@ -1,4 +1,6 @@
 # Definition
+* Algorithm = 
+* Program = 
 
 # To Read
 * Asymptotic Notations will be used to represent Time Complexity & Space Complexity of an Alogrithm
