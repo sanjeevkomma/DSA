@@ -70,5 +70,8 @@
 * ![image](https://user-images.githubusercontent.com/7721150/177767972-8abe6522-fcaf-429c-8a70-7056b646e6b7.png)
 2. Big O Complexity
 * ![image](https://user-images.githubusercontent.com/7721150/177769322-aa6fb00d-6bbe-4fe6-b854-0b48faae3bd9.png)
+3. Algorithm VS Program
+* ![image](https://user-images.githubusercontent.com/7721150/180744014-4b6905d8-9a3c-45c2-8592-7dfad6606884.png)
+
 
 
