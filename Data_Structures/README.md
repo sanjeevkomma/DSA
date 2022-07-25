@@ -28,7 +28,7 @@
 
 # Non-linear data structure
 |SNo| #Data Structure  | #Comments |
-| :---:| :---: | :---: | 
+| :---| :--- | :--- | 
 |1 | [Tree](https://www.javatpoint.com/tree) |1. [Binary Tree](https://www.javatpoint.com/binary-tree) <br>2. [Binary Search tree](javatpoint.com/binary-search-tree) <br>3. [AVL Tree](https://www.javatpoint.com/avl-tree) <br>4. [B Tree](https://www.javatpoint.com/b-tree) <br>5. [B+ Tree](https://www.javatpoint.com/b-plus-tree) <br>6. [Red-black tree](https://www.javatpoint.com/red-black-tree)|
 |2| [Graph](https://www.javatpoint.com/ds-graph) | 1. [Graph representation](https://www.javatpoint.com/graph-representation) 2. [BFS algorithm](https://www.javatpoint.com/breadth-first-search-algorithm) 3. [DFS algorithm](https://www.javatpoint.com/depth-first-search-algorithm) 4. [Spanning tree](https://www.javatpoint.com/spanning-tree)|
 
