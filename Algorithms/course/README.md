@@ -45,6 +45,8 @@
 1. Big oh Notation (O) --- ( Worst case )
 2. Omega Notation (Ω) --- ( Average case )
 3. Theta Notation (θ) --- ( Best case )
+* ![image](https://user-images.githubusercontent.com/7721150/180755536-c0ad849e-4f37-470d-982e-07e17db2c755.png)
+
 
 # Asymptotic Notations Representation
 |SNo| #Type  | #Notation |
