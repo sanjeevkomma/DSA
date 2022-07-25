@@ -19,7 +19,7 @@
 |SNo| #Data Structure  | #Approach |#Time Complexity |#Comments |
 | :---:| :---: | :---: | :---: | :---: | 
 |1 | [Array](https://www.javatpoint.com/data-structure-array) | Approach|Time Complexity |[2D Array](https://www.javatpoint.com/data-structure-2d-array) |
-|2 | [Stack](https://www.javatpoint.com/data-structure-stack) | push : O(1) , pop : O(1)|Time Complexity | 1. [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack)  2. [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
+|2 | [Stack](https://www.javatpoint.com/data-structure-stack) | Approach|1. push : O(1) 2. pop : O(1) | 1. [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack)  2. [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
 |3 | [Queue](https://www.javatpoint.com/data-structure-queue) | Approach|Time Complexity | 1. [Array Implementation of Queue](https://www.javatpoint.com/array-representation-of-queue)  2. [Linked List implementation of Queue](https://www.javatpoint.com/linked-list-implementation-of-queue)  3. [Circular Queue](https://www.javatpoint.com/circular-queue)  4. [Deque(double-ended queue)](https://www.javatpoint.com/ds-deque)  5. [Priority Queue](https://www.javatpoint.com/ds-priority-queue) |
 |4 | [Linked List](https://www.javatpoint.com/singly-linked-list)  | Approach|Time Complexity | 1. [Doubly Linked List](https://www.javatpoint.com/doubly-linked-list)  2. [Circular Linked List](https://www.javatpoint.com/circular-singly-linked-list)  3. [Circular Doubly List](https://www.javatpoint.com/circular-doubly-linked-list) |
 
