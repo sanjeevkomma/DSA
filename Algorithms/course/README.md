@@ -8,6 +8,7 @@
 * Average case --- It takes average time for the program execution.
 * Best case --- It defines the input for which the algorithm takes the lowest time
 * We need algorithms because of the Scalability and Performance
+* We should focus on howmany comparisions are needed to search an element
 
 # Terminology
 * Algorithm Complexity
