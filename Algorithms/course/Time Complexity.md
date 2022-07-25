@@ -13,3 +13,6 @@
 |4 | Updation | |
 |5 | Deletion | |
 |6 | Traversal - Accessing a particular data | |
+
+# Reference
+* [How can I find the time complexity of an algorithm?](https://stackoverflow.com/questions/11032015/how-can-i-find-the-time-complexity-of-an-algorithm)
