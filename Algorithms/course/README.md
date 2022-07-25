@@ -1,6 +1,6 @@
 # Definition
-* Algorithm = 
-* Program = 
+* Algorithm = Algorithm is written at Design time
+* Program = Program is written at Implementation time
 
 # To Read
 * Asymptotic Notations will be used to represent Time Complexity & Space Complexity of an Alogrithm
