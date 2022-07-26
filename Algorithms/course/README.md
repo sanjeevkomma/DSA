@@ -26,6 +26,9 @@
 |1| Searching Algorithm | 1. [Linear Search](https://www.javatpoint.com/linear-search) <br>2. [Binary Search](https://www.javatpoint.com/binary-search)|
 |2| Sorting Algorithm | 1. [Bubble Sort](https://www.javatpoint.com/bubble-sort) <br>2. [Bucket Sort](https://www.javatpoint.com/bucket-sort) <br>3. [Comb Sort](https://www.javatpoint.com/comb-sort) <br>4. [Counting Sort](https://www.javatpoint.com/counting-sort) <br>5. [Heap Sort](https://www.javatpoint.com/heap-sort) <br>6. [Insertion Sort](https://www.javatpoint.com/insertion-sort) <br>7. [Merge Sort](https://www.javatpoint.com/merge-sort) <br>8. [Quick Sort](https://www.javatpoint.com/quick-sort) <br>9. [Radix Sort](https://www.javatpoint.com/radix-sort) <br>10. [Selection Sort](https://www.javatpoint.com/selection-sort) <br>11. [Shell Sort](https://www.javatpoint.com/shell-sort) <br>12. [Bitonic Sort](https://www.javatpoint.com/bitonic-sort) <br>13. [Cocktail Sort](https://www.javatpoint.com/cocktail-sort) <br>14. [Cycle Sort](https://www.javatpoint.com/cycle-sort) <br>15. [Tim Sort](https://www.javatpoint.com/tim-sort) |
 
+# Algorithm , Time Complexity , Space Complexity
+* ![image](https://user-images.githubusercontent.com/7721150/180968553-4f0c1f0e-3d0b-45e6-ad91-1e81565aecc1.png)
+
 
 # Searching Algorithm
 |#SNo| #Algorithm  | #Approach |#Time Complexity | #Space Complexity |
