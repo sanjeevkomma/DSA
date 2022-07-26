@@ -3,6 +3,8 @@
 
 # To Read
 * The time complexity, measured in the number of comparisons, then becomes T(n) = n - 1
+* Time Complexity depends on input size & no of comparisions 
+* O(1) < O(logn) < O(n) < O(nlogn)
 
 # Operations to calculate Time Complexity
 |SNo| #Operation | #Comments |
