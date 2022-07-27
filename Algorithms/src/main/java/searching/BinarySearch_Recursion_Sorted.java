@@ -1,7 +1,12 @@
-package searching;
+/***
 
-// Binary search for sorted array with recursion
+Approach = Recursion Approach
 
+Time Complexity = O(logn)
+
+Space Complexity = Auxiliary space + Input size = O(1)
+
+**/
 public class BinarySearch_Recursion_Sorted { 
 
 	public static void main(String args[]) {  
@@ -23,31 +28,26 @@ public class BinarySearch_Recursion_Sorted {
 
 	static int binarySearch_In_SortedArray( int arr[], int begIndex, int endIndex, int val ) {    
 
-		int midIndex ;    
+		int midIndex = ( begIndex + endIndex ) / 2;    
 
-		if( endIndex >= begIndex ) {  
-
-			midIndex = ( begIndex + endIndex ) / 2;    
-
-			if( arr[midIndex] == val )  {    
+			if ( val == arr[midIndex] )  {    
 
 				return midIndex ;  // if the item to be searched is present at middle  
 
 			}    
 
 			// if the item to be searched is smaller than middle, then it can only be in left sub array  
-			else if( arr[midIndex] < val )  {  
+			else if ( val < arr[midIndex] )  {  
 
-				return binarySearch_In_SortedArray(arr, midIndex + 1, endIndex, val); // Recursion   
+				return binarySearch_In_SortedArray(arr, begIndex, midIndex - 1, val); // Recursion   begIndex midIndex
 			}    
 
 			// if the item to be searched is greater than middle, then it can only be in right sub array  
 
-			else  if( arr[midIndex] > val ) {  
+			else  if ( val > arr[midIndex] ) {  
 				
-				return binarySearch_In_SortedArray(arr, begIndex, midIndex-1, val); // Recursion   
+				return binarySearch_In_SortedArray(arr, midIndex + 1 , endIndex, val); // Recursion   
 			}    
-		}    
 
 		return -1 ;    
 	}   

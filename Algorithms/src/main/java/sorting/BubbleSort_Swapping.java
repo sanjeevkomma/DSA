@@ -1,6 +1,14 @@
 package sorting;
 
-// Sorting in Ascending order using swapping approach
+/***
+
+Approach = Swapping Approach
+
+Time Complexity = O(n2)
+
+Space Complexity = Auxiliary space + Input size = O(1)
+
+**/
 
 public class BubbleSort_Swapping {
 
@@ -16,9 +24,9 @@ public class BubbleSort_Swapping {
 
 	static void bubbleSort_With_Swapping ( int arr[] )  {   // function to implement bubble sort in ascending order with swapping approach
 
-		for ( int i = 0; i < arr.length; i++ )  {  
+		for ( int i = 0; i < arr.length; i++ )  {  // n
 
-			for ( int j = i + 1; j < arr.length; j++ )   {  
+			for ( int j = i + 1; j < arr.length; j++ )   {  // n
 
 				if ( arr[i] > arr[j] )  {  
 

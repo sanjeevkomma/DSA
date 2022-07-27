@@ -1,5 +1,12 @@
-package searching;
+/***
 
+Approach = Iterative Approach
+
+Time Complexity = O(n)
+
+Space Complexity = Auxiliary space + Input size = O(1)
+
+**/
 public class LinearSearch_UnSorted {
 
 	public static void main(String args[]) {  
