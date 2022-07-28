@@ -1,26 +1,3 @@
-
-public class LinkedList_Example {
-
-	public static void main(String[] args) {
-
-		CustomLinkedList list = new CustomLinkedList();
-
-		list.add(12);
-
-		list.add(43);
-
-		list.insertAtStart(191);
-
-		list.insertAt(2, 2222);
-
-		list.deleteAt(2);
-		
-		list.findMiddleElement();
-
-		list.show();
-	}
-}
-
 class Node {
 
 	int data; 
@@ -37,7 +14,7 @@ class Node {
 
 class CustomLinkedList {
 
-	Node headNode;
+	private Node headNode;
 
 	// insert
 	public void add(int data) {
@@ -169,4 +146,33 @@ class CustomLinkedList {
 		System.out.println("middle element of LinkedList : " + middleNode.data );
 	}
 
+}
+
+public class LinkedList_Example {
+
+	public static void main(String[] args) {
+
+		CustomLinkedList list = new CustomLinkedList();
+
+		list.add(12); // 1
+
+		list.add(43);  // 2
+		list.add(3);  // 3
+		list.add(5);  // 4
+		list.add(66);  // 5
+		list.add(23);  // 6
+		list.add(162);  // 7
+		list.add(88);  // 8
+		list.add(44);  // 9
+
+		/*list.insertAtStart(191);
+
+		list.insertAt(2, 2222);
+
+		list.deleteAt(2);*/
+		
+		list.findMiddleElement();
+
+		list.show();
+	}
 }

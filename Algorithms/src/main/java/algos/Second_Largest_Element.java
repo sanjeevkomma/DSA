@@ -1,7 +1,9 @@
 package algos;
 
 /** Complexity Analysis :
-
+ 
+Approach : Swapping  
+ 
 Space Complexity = Auxiliary Space + Space taken by input size
 
 1) Time Complexity = O(n log n) 
@@ -14,7 +16,7 @@ public class Second_Largest_Element {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 12, 435, -1, 15, -84, 10 };
+		int arr[] = { 12, 435, -1, 15, -84, 10 }; // 15
 
 		secondLargestElement_In_UnSortedArray(arr);
 
@@ -26,9 +28,9 @@ public class Second_Largest_Element {
 		
 		for ( int i = 0; i < arr.length; i++ ) {
 
-			if ( arr[i] > firstElement ) {
+			if ( firstElement < arr[i] ) {
 
-				secondElement = firstElement;
+				secondElement = firstElement; // Swapping
 
 				firstElement = arr[i];  // second = 0,  first = 12
 				                        // second = 12, first = 435
@@ -36,7 +38,7 @@ public class Second_Largest_Element {
 				                        // second = 84, first = 435
 			}
 
-			else if ( arr[i] > secondElement && arr[i] != firstElement )
+			else if ( firstElement !=  arr[i] && secondElement < arr[i] )   
 
 				secondElement = arr[i];
 		}
