@@ -165,11 +165,11 @@ public class LinkedList_Example {
 		list.add(88);  // 8
 		list.add(44);  // 9
 
-		/*list.insertAtStart(191);
+		list.insertAtStart(191);
 
 		list.insertAt(2, 2222);
 
-		list.deleteAt(2);*/
+		list.deleteAt(2);
 		
 		list.findMiddleElement();
 
