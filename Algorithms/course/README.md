@@ -81,10 +81,9 @@
 
 
 # Notes
-Type : Time complexity : Space Complexity 
-Linear Search : O(n) : O(1) : Iteration , Unsorted
-Binary Search : O(logn) : O(1) : Recursion, Sorted, Mid Index 
-
-Bubble Sort : O(n2) : O(1) : Iteration Method , Swapping
-Merge Sort : O(nlogn) : O(n) : Divide & Conquer, Recursion, mergeSort, mergeSort, merge
-Quick Sort : O(n2) : O(logn) : Divide & Conquer, Recursion, partition, quickSort, quickSort
+* Type : Time complexity : Space Complexity 
+* Linear Search : O(n) : O(1) : Iteration , Unsorted
+* Binary Search : O(logn) : O(1) : Recursion, Sorted, Mid Index 
+* Bubble Sort : O(n2) : O(1) : Iteration Method , Swapping
+* Merge Sort : O(nlogn) : O(n) : Divide & Conquer, Recursion, mergeSort, mergeSort, merge
+* Quick Sort : O(n2) : O(logn) : Divide & Conquer, Recursion, partition, quickSort, quickSort
