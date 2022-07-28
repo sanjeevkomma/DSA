@@ -10,7 +10,7 @@ Each sub-problem is solved individually and finally, sub-problems are combined t
 
 Time Complexity = O(nlogn)
 
-Space Complexity = Auxiliary space + Input size = O(n)
+Space Complexity = Auxiliary space + Input size = O(n) , as we're creating temporary arrays in every recursive call
 
 Steps :
 
@@ -61,24 +61,28 @@ public class MergeSort_Recursion { // Function to merge the sub arrays of arr[]
 
 		int i, j, k;  
 
-		int n1 = midIndex - begIndex + 1;    
+		int leftArrayLength = midIndex - begIndex + 1;    
 
-		int n2 = endIndex - midIndex;    
+		int rightArrayLength = endIndex - midIndex;    
 
 		/* temporary Arrays */  
 
-		int leftArray[] = new int[n1];  
+		int leftArray[] = new int[leftArrayLength];  
 
-		int rightArray[] = new int[n2];  
+		int rightArray[] = new int[rightArrayLength];  
 
 		/* copy data to temp arrays */  
-		for ( i = 0; i < n1; i ++ ) {   
+		for ( i = 0; i < leftArrayLength; i ++ ) {   
 
-			leftArray[i] = arr[begIndex + i];   } 
+			leftArray[i] = arr[begIndex + i];   
+			
+		} 
 
-		for ( j = 0; j < n2; j++ )  {  
+		for ( j = 0; j < rightArrayLength; j ++ )  {  
 
-			rightArray[j] = arr[midIndex + 1 + j];  }  
+			rightArray[j] = arr[midIndex + 1 + j];  
+			
+		}  
 
 		i = 0; /* initial index of first sub-array */  
 
@@ -86,47 +90,47 @@ public class MergeSort_Recursion { // Function to merge the sub arrays of arr[]
 
 		k = begIndex;  /* initial index of merged sub-array */  
 
-		while ( i < n1 && j < n2 )  {    
+		while ( i < leftArrayLength && j < rightArrayLength )  {    
 
 			if( leftArray[i] <= rightArray[j] ) {    
 
 				arr[k] = leftArray[i];    
 
-				i++;    
+				i ++;    
 			}    
 
 			else {    
 
 				arr[k] = rightArray[j];    
 
-				j++;    
+				j ++;    
 			}    
 
-			k++;    
+			k ++;    
 		}    
 
-		while ( i < n1 )  {    
+		while ( i < leftArrayLength )  {    
 
 			arr[k] = leftArray[i];    
 
-			i++;    
+			i ++;    
 
-			k++;    
+			k ++;    
 		}    
 
-		while (j < n2)  {    
+		while (j < rightArrayLength)  {    
 
 			arr[k] = rightArray[j];    
 
-			j++;    
+			j ++;    
 
-			k++;    
+			k ++;    
 		}    
 	}    
 
 	static void printArray(int arr[] )  {  
 
-		for  ( int i = 0; i < arr.length; i++ )  
+		for  ( int i = 0; i < arr.length; i ++ )  
 
 			System.out.print(arr[i] + " ");  
 	}  
