@@ -1,3 +1,4 @@
+package com.demo.searching;
 /***
 
 Approach = Recursion Approach

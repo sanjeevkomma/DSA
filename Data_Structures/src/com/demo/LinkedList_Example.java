@@ -1,3 +1,5 @@
+package com.demo;
+
 class Node {
 
 	int data; 

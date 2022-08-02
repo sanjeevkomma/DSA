@@ -1,5 +1,4 @@
-package algos;
-
+package com.demo.algos;
 public class String_Chars_Adjacent {
 
 	// https://www.geeksforgeeks.org/string-k-distinct-characters-no-characters-adjacent

@@ -1,4 +1,4 @@
-package algos;
+package com.demo.algos;
 
 public class Longest_Palindrome_Substring {
 
