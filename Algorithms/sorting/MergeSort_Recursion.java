@@ -18,10 +18,10 @@ step 1: start
 step 2: declare array and left, right, mid variable 
 step 3: perform merge function.
         mergesort(array,begIndex,endIndex)
-        mergesort (array, begIndex, endIndex)
+        mergesort(array, begIndex, endIndex)
         if begIndex > endIndex
         return
-        midIndex= (begIndex+endIndex)/2
+        midIndex=(begIndex+endIndex)/2
         mergesort(array, begIndex, midIndex)
         mergesort(array, midIndex+1, endIndex)
         merge(array, begIndex, midIndex, endIndex)
