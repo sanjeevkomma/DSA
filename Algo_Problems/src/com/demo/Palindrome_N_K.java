@@ -1,4 +1,5 @@
-package com.demo.algos;
+package com.demo;
+
 
 public class Palindrome_N_K {
 	

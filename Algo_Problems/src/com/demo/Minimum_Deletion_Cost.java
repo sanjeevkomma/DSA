@@ -1,4 +1,4 @@
-package com.demo.algos;
+package com.demo;
 
 public class Minimum_Deletion_Cost {
 	
