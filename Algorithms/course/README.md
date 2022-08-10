@@ -9,6 +9,7 @@
 * Best case --- It defines the input for which the algorithm takes the lowest time
 * We need algorithms because of the Scalability and Performance
 * We should focus on howmany comparisions are needed to search an element
+* Space complexity = O(1) = It means no extra space is required
 
 # Terminology
 * Algorithm Complexity
