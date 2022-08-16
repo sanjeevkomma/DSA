@@ -32,10 +32,10 @@
 
 
 # Searching Algorithm
-|#SNo| #Algorithm  | #Approach |#Time Complexity | #Space Complexity |
-| :--- | :--- | :--- |:--- |:--- |
-|1| [Linear Search](https://www.javatpoint.com/linear-search) |Approach |1.Best Case = O(1)<br>2.Average Case = O(n)<br>3.Worst Case = O(n) |O(1) |
-|2| [Binary Search](https://www.javatpoint.com/binary-search) |1. Iterative Method <br>2. Recursive Method(Divide & Conquers Approach)| 1.Best Case = O(1)<br>2.Average Case = O(logn)<br>3.Worst Case = O(logn)|O(1) |
+|#SNo| #Algorithm  |#Data Structure |#Approach |#Time Complexity | #Space Complexity |
+| :--- | :--- | :--- |:--- |:--- |:--- |
+|1| [Linear Search](https://www.javatpoint.com/linear-search) |Array|Approach |1.Best Case = O(1)<br>2.Average Case = O(n)<br>3.Worst Case = O(n) |O(1) |
+|2| [Binary Search](https://www.javatpoint.com/binary-search) |Array|1. Iterative Method <br>2. Recursive Method(Divide & Conquers Approach)| 1.Best Case = O(1)<br>2.Average Case = O(logn)<br>3.Worst Case = O(logn)|O(1) |
 
 
 # Sorting Algorithm
