@@ -34,7 +34,7 @@
 # Searching Algorithm
 |#SNo| #Algorithm  |#Data Structure |#Approach |#Time Complexity | #Space Complexity |
 | :--- | :--- | :--- |:--- |:--- |:--- |
-|1| [Linear Search](https://www.javatpoint.com/linear-search) |Array <br>int arr[] = { 1, 2, 3 };|Approach |1.Best Case = O(1)<br>2.Average Case = O(n)<br>3.Worst Case = O(n) |O(1) |
+|1| [Linear Search](https://www.javatpoint.com/linear-search) |Array <br>int arr[] = { 1, 2 };|Approach |1.Best Case = O(1)<br>2.Average Case = O(n)<br>3.Worst Case = O(n) |O(1) |
 |2| [Binary Search](https://www.javatpoint.com/binary-search) |Array <br>int arr[] = { 1,2,3,4,5 };|1. Iterative Method <br>2. Recursive Method(Divide & Conquers Approach)| 1.Best Case = O(1)<br>2.Average Case = O(logn)<br>3.Worst Case = O(logn)|O(1) |
 
 
