@@ -39,11 +39,11 @@
 
 
 # Sorting Algorithm
-|#SNo| #Algorithm  | #Approach |#Time Complexity | #Space Complexity |
-| :--- | :--- | :--- |:--- |:--- |
-|1| [Bubble Sort](https://www.javatpoint.com/bubble-sort) |Approach| 1.Best Case = O(n)<br>2.Average Case = O(n2)<br>3.Worst Case = O(n2)| 1. The space complexity of bubble sort is O(1). It is because, in bubble sort, an extra 1 variable is required for swapping <br>2. The space complexity of optimized bubble sort is O(2). It is because  extra 2 variables are required in optimized bubble sort |
-|2|[Merge Sort](https://www.javatpoint.com/merge-sort)|Approach|1.Best Case = O(n*logn)<br>2.Average Case = O(n*logn)<br>3.Worst Case = O(n*logn)|The space complexity of merge sort is O(n). It is because, in merge sort, an extra variable is required for swapping|
-|3|[Quick Sort](https://www.javatpoint.com/quick-sort)|Approach|1.Best Case = O(n*logn)<br>2.Average Case = O(n*logn)<br>3.Worst Case = O(n2)|The space complexity of quick sort is O(n*logn)|
+|#SNo| #Algorithm  |#Data Structure| #Approach |#Time Complexity | #Space Complexity |
+| :--- | :--- | :--- |:--- |:--- |:--- |
+|1| [Bubble Sort](https://www.javatpoint.com/bubble-sort) |Array|Approach| 1.Best Case = O(n)<br>2.Average Case = O(n2)<br>3.Worst Case = O(n2)| 1. The space complexity of bubble sort is O(1). It is because, in bubble sort, an extra 1 variable is required for swapping <br>2. The space complexity of optimized bubble sort is O(2). It is because  extra 2 variables are required in optimized bubble sort |
+|2|[Merge Sort](https://www.javatpoint.com/merge-sort)|Array|Approach|1.Best Case = O(n*logn)<br>2.Average Case = O(n*logn)<br>3.Worst Case = O(n*logn)|The space complexity of merge sort is O(n). It is because, in merge sort, an extra variable is required for swapping|
+|3|[Quick Sort](https://www.javatpoint.com/quick-sort)|Array|Approach|1.Best Case = O(n*logn)<br>2.Average Case = O(n*logn)<br>3.Worst Case = O(n2)|The space complexity of quick sort is O(n*logn)|
 
 # Asymptotic Notations
 1. Big oh Notation (O) --- ( Worst case )
