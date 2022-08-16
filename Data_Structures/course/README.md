@@ -14,14 +14,15 @@
 
 * The primitive data structures are primitive data types. The int, char, float, double, and pointer are the primitive data structures that can hold a single value
 * Non-Primitive Data structure = Linear data structure & Non-linear data structure
+* Approach depends on Operation
 
 # Linear data structure
-|SNo| #Data Structure  | #Approach |#Time Complexity |#Comments |
-| :---| :--- | :--- | :--- | :--- | 
-|1 | [Array](https://www.javatpoint.com/data-structure-array) | Approach|Time Complexity |[2D Array](https://www.javatpoint.com/data-structure-2d-array) |
-|2 | [Stack](https://www.javatpoint.com/data-structure-stack) | Approach|1. push : O(1) <br /> 2. pop : O(1) | 1. [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack)  <br>2. [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
-|3 | [Queue](https://www.javatpoint.com/data-structure-queue) | Approach|Time Complexity | 1. [Array Implementation of Queue](https://www.javatpoint.com/array-representation-of-queue)  <br>2. [Linked List implementation of Queue](https://www.javatpoint.com/linked-list-implementation-of-queue)  <br>3. [Circular Queue](https://www.javatpoint.com/circular-queue)  <br>4. [Deque(double-ended queue)](https://www.javatpoint.com/ds-deque)  <br>5. [Priority Queue](https://www.javatpoint.com/ds-priority-queue) |
-|4 | [Linked List](https://www.javatpoint.com/singly-linked-list)  | Approach| 1. Access : O(n) <br>2. Search:O(n) <br>3. Insertion O(1) <br>4. Deletion:O(1) | 1. [Doubly Linked List](https://www.javatpoint.com/doubly-linked-list)  <br>2. [Circular Linked List](https://www.javatpoint.com/circular-singly-linked-list)  <br>3. [Circular Doubly List](https://www.javatpoint.com/circular-doubly-linked-list) |
+|SNo| #Data Structure  |#Data Type| #Approach |#Time Complexity |#Comments |
+| :---| :--- | :--- | :--- | :--- | :--- |
+|1 | [Array](https://www.javatpoint.com/data-structure-array) |Data Type |Approach|Time Complexity |[2D Array](https://www.javatpoint.com/data-structure-2d-array) |
+|2 | [Stack](https://www.javatpoint.com/data-structure-stack) |Data Type| Approach|1. push : O(1) <br /> 2. pop : O(1) | 1. [Array implementation of Stack](https://www.javatpoint.com/ds-array-implementation-of-stack)  <br>2. [Linked list implementation of stack](https://www.javatpoint.com/ds-linked-list-implementation-of-stack)|
+|3 | [Queue](https://www.javatpoint.com/data-structure-queue) |Data Type| Approach|Time Complexity | 1. [Array Implementation of Queue](https://www.javatpoint.com/array-representation-of-queue)  <br>2. [Linked List implementation of Queue](https://www.javatpoint.com/linked-list-implementation-of-queue)  <br>3. [Circular Queue](https://www.javatpoint.com/circular-queue)  <br>4. [Deque(double-ended queue)](https://www.javatpoint.com/ds-deque)  <br>5. [Priority Queue](https://www.javatpoint.com/ds-priority-queue) |
+|4 | [Linked List](https://www.javatpoint.com/singly-linked-list)  | Data Type|Approach| 1. Access : O(n) <br>2. Search:O(n) <br>3. Insertion O(1) <br>4. Deletion:O(1) | 1. [Doubly Linked List](https://www.javatpoint.com/doubly-linked-list)  <br>2. [Circular Linked List](https://www.javatpoint.com/circular-singly-linked-list)  <br>3. [Circular Doubly List](https://www.javatpoint.com/circular-doubly-linked-list) |
 
 
 
