@@ -35,15 +35,15 @@
 |#SNo| #Algorithm  |#Data Structure |#Approach |#Time Complexity | #Space Complexity |
 | :--- | :--- | :--- |:--- |:--- |:--- |
 |1| [Linear Search](https://www.javatpoint.com/linear-search) |Array <br>int arr[] = { 1, 2 };|Approach |1.Best Case = O(1)<br>2.Average Case = O(n)<br>3.Worst Case = O(n) |O(1) |
-|2| [Binary Search](https://www.javatpoint.com/binary-search) |Array <br>int arr[] = { 1,2,3,4,5 };|1. Iterative Method <br>2. Recursive Method(Divide & Conquers Approach)| 1.Best Case = O(1)<br>2.Average Case = O(logn)<br>3.Worst Case = O(logn)|O(1) |
+|2| [Binary Search](https://www.javatpoint.com/binary-search) |Array <br>int arr[] = { 1, 2 };|1. Iterative Method <br>2. Recursive Method(Divide & Conquers Approach)| 1.Best Case = O(1)<br>2.Average Case = O(logn)<br>3.Worst Case = O(logn)|O(1) |
 
 
 # Sorting Algorithm
 |#SNo| #Algorithm  |#Data Structure| #Approach |#Time Complexity | #Space Complexity |
 | :--- | :--- | :--- |:--- |:--- |:--- |
-|1| [Bubble Sort](https://www.javatpoint.com/bubble-sort) |Array <br>int arr[] = { 1,2,3,4,5 };|Approach| 1.Best Case = O(n)<br>2.Average Case = O(n2)<br>3.Worst Case = O(n2)| 1. The space complexity of bubble sort is O(1). It is because, in bubble sort, an extra 1 variable is required for swapping <br>2. The space complexity of optimized bubble sort is O(2). It is because  extra 2 variables are required in optimized bubble sort |
-|2|[Merge Sort](https://www.javatpoint.com/merge-sort)|Array <br>int arr[] = { 1,2,3,4,5 };|Approach|1.Best Case = O(n*logn)<br>2.Average Case = O(n*logn)<br>3.Worst Case = O(n*logn)|The space complexity of merge sort is O(n). It is because, in merge sort, an extra variable is required for swapping|
-|3|[Quick Sort](https://www.javatpoint.com/quick-sort)|Array <br>int arr[] = { 1,2,3,4,5 };|Approach|1.Best Case = O(n*logn)<br>2.Average Case = O(n*logn)<br>3.Worst Case = O(n2)|The space complexity of quick sort is O(n*logn)|
+|1| [Bubble Sort](https://www.javatpoint.com/bubble-sort) |Array <br>int arr[] = { 1, 2 };|Approach| 1.Best Case = O(n)<br>2.Average Case = O(n2)<br>3.Worst Case = O(n2)| 1. The space complexity of bubble sort is O(1). It is because, in bubble sort, an extra 1 variable is required for swapping <br>2. The space complexity of optimized bubble sort is O(2). It is because  extra 2 variables are required in optimized bubble sort |
+|2|[Merge Sort](https://www.javatpoint.com/merge-sort)|Array <br>int arr[] = { 1, 2 };|Approach|1.Best Case = O(n*logn)<br>2.Average Case = O(n*logn)<br>3.Worst Case = O(n*logn)|The space complexity of merge sort is O(n). It is because, in merge sort, an extra variable is required for swapping|
+|3|[Quick Sort](https://www.javatpoint.com/quick-sort)|Array <br>int arr[] = { 1, 2 };|Approach|1.Best Case = O(n*logn)<br>2.Average Case = O(n*logn)<br>3.Worst Case = O(n2)|The space complexity of quick sort is O(n*logn)|
 
 # Asymptotic Notations
 1. Big oh Notation (O) --- ( Worst case )
