@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.algos;
 
 // Each character should occur odd number of times
 public class Alphabets_With_Odd_Frequencies {

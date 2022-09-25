@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.algos;
 
 
 public class String_Chars_Adjacent {
