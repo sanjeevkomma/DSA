@@ -6,15 +6,8 @@ import java.util.Map;
 // HashMap , Doubly Linked List to be used
 
 /** 
- * 
- * References 
- * 1. https://www.youtube.com/watch?v=xDEuM5qa0zg
- * 2. https://www.youtube.com/watch?v=Xc4sICC8m4M
- *
  * Time Complexity = O(1) for get & put operations
  * Space Complexity = 
- * 
- * 
  */
 
 public class LRU_Cache {
