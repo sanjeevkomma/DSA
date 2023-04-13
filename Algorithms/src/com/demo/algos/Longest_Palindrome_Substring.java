@@ -1,10 +1,14 @@
 package com.demo.algos;
 
+// palindroms : aa , aca , cabac
+
+// Longest is : cabac
+
 public class Longest_Palindrome_Substring {
 
 	public static void main(String[] args) {
 
-		String str = "aacab";
+		String str = "aacabac";
 
 		System.out.println("\nLength is: "+ longestPalSubstr(str));
 	}
