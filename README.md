@@ -10,5 +10,8 @@ Data Structures &amp; Algorithms
 # Image
 1. Time & Space Complexity of DSA
 * ![image](https://user-images.githubusercontent.com/7721150/183982045-1584a576-b76a-4c8e-b876-acbef838074c.png)
+2. DataStructures in Daily Life
+* ![image](https://user-images.githubusercontent.com/7721150/231829293-2f64d238-e98a-4ad9-a26f-cf27a0d0ded5.png)
+
 
 
