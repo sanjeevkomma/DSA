@@ -61,6 +61,18 @@
 * [Data Structures](https://www.geeksforgeeks.org/data-structures/)
 * [Data Structures Basics](https://www.javatpoint.com/data-structure-tutorial)
 
+# 10 articles to solve Leetcode problems
+1. 14 patterns to ace any coding interview: https://lnkd.in/gBu9uZtz
+2. Backtracking solution for 10 popular problems: https://lnkd.in/gjpC9MCC
+3. Dynamic Programming patterns for beginners: https://lnkd.in/gevrxmmy
+4. All Graph algorithms in one place: https://lnkd.in/g2xdz7TY
+5. When to use two pointers?: https://lnkd.in/gqzEDmf6
+6. Sliding Window algorithm made easy: https://lnkd.in/gnDS8sJn
+7. Ultimate Binary Search guide: https://lnkd.in/gg_BB6ik
+8. How to solve Linked List problems?: https://lnkd.in/gp7FgTGx
+9. Comprehensive Data Structure and Algorithm study guide: https://lnkd.in/gcUnWavF
+10. How to effectively use Leetcode: https://lnkd.in/gEuRT4ik
+
 # Reference
 * [What are the time complexities of various data structures?](https://stackoverflow.com/questions/7294634/what-are-the-time-complexities-of-various-data-structures)
 
