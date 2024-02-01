@@ -150,7 +150,7 @@ class CustomLinkedList {
 
 }
 
-public class LinkedList_Example {
+public class Custom_LinkedList_Example {
 
 	public static void main(String[] args) {
 
