@@ -8,7 +8,7 @@ public class Minimum_Deletion_Cost {
 
 		Minimum_Deletion_Cost obj = new Minimum_Deletion_Cost();
 		
-		String str = "abab";
+		String str = "aba";
 		
 		int cost[] = {1,2};
 		
@@ -18,7 +18,7 @@ public class Minimum_Deletion_Cost {
 
 	}
 
-	public int minCost(String str, int[] cost) {
+	private int minCost(String str, int[] cost) {
 
 		int totalCost = 0;
 
