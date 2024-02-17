@@ -1,7 +1,5 @@
 package com.demo.data_structures;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 public class Stack_Example {
@@ -20,22 +18,11 @@ public class Stack_Example {
 
         System.out.println("peek::" +stack.peek());
 
-        System.out.println(stack);
+        System.out.println("stack1:"+stack);
 
         System.out.println("pop::"+stack.pop());
 
-        System.out.println(stack);
+        System.out.println("stack2:"+stack);
 
-       // obj.
-
-        List<String> list = new ArrayList();
-
-        list.add("abc");
-
-       // list.remove(2);
-
-       // list.g
-
-
-    }
+           }
 }
