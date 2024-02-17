@@ -2,9 +2,16 @@ package com.demo.data_structures;
 
 import java.util.Stack;
 
+/**
+ *
+ * Time Complexity =
+ * Space Complexity =
+ *
+ */
+
 public class Stack_Example {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
         Stack<String> stack = new Stack<String>();
 
@@ -13,16 +20,20 @@ public class Stack_Example {
         stack.push("Orange");
         stack.push("Banana");
         stack.push("Popagranate");
+        stack.push("Tomato");
+        stack.push("Egg");
 
-        //stack.remove(2);
 
-        System.out.println("peek::" +stack.peek());
+        System.out.println("stack1: " + stack);
 
-        System.out.println("stack1:"+stack);
+        System.out.println("peek: " + stack.peek());
+        System.out.println("pop: " + stack.pop());
+        System.out.println("remove1: " + stack.remove(3));
+        System.out.println("remove2: " + stack.remove("Mango"));
+        System.out.println("search: " + stack.search("Orange"));
+        System.out.println("isEmpty: " + stack.isEmpty());
 
-        System.out.println("pop::"+stack.pop());
+        System.out.println("stack2: " + stack);
 
-        System.out.println("stack2:"+stack);
-
-           }
+    }
 }
