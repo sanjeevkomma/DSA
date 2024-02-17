@@ -1,16 +1,16 @@
-package com.demo.data_structures;
+package com.demo.tech;
 
 class Node {
 
-	int data; 
+	int data;
 
-	Node nextNode; 
+	Node nextNode;
 
 	Node(int data) {
 
 		this.data = data;
-		
-		this.nextNode = null; 
+
+		this.nextNode = null;
 	}
 }
 
@@ -38,9 +38,9 @@ class CustomLinkedList {
 
 			currentNode.nextNode = newNode;
 		}
-	}   
+	}
 
-	
+
 	// insertAtStart
 	public void insertAtStart(int data) {
 
@@ -106,7 +106,7 @@ class CustomLinkedList {
 		}
 
 		else {
-
+			System.out.print("elements in Linked list: ");
 			while( currentNode != null ) {
 
 				System.out.print(currentNode.data + " ");
