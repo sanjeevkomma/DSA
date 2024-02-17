@@ -1,4 +1,4 @@
-package com.demo.algorithms.algos;
+package com.demo.tech;
 
 /** Complexity Analysis :
  

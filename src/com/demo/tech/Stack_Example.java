@@ -1,4 +1,4 @@
-package com.demo.data_structures;
+package com.demo.tech;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package com.demo.algorithms.algos;
+package com.demo.tech;
 
 public class Minimum_Deletion_Cost {
 	

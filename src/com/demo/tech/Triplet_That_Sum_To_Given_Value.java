@@ -1,4 +1,4 @@
-package com.demo.algorithms.algos;
+package com.demo.tech;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.demo.algorithms.algos;
+package com.demo.tech;
 
 import java.util.ArrayList;
 import java.util.HashMap;
