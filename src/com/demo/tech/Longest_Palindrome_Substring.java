@@ -4,54 +4,55 @@ package com.demo.tech;
 
 // Longest is : cabac
 
+// Using Two Pointers (Expand Around Center) technique
+
 public class Longest_Palindrome_Substring {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		String str = "aacabac";
+        String str = "aacabac";
 
-		System.out.println("\nLength is: "+ longestPalSubstr(str));
-	}
+        System.out.println("longest palindrome is: " + longestPalSubstr(str));
+    }
 
-	static int longestPalSubstr(String str){
+    static String longestPalSubstr(String str) {
+        if (str == null || str.length() < 1) {
+            return "";
+        }
 
-		int maxLength = 1, start = 0;
+        int startIndex = 0, endIndex = 0; // Variables to track the start and end of the longest palindrome
 
-		for ( int i = 0; i < str.length(); i++ ) {
+        for (int i = 0; i < str.length(); i++) {
+            // Check odd-length palindromes (single character center)
+            int len1 = expandAroundCenter(str, i, i);
 
-			for ( int j = i; j < str.length(); j++ ) {
+            // Check even-length palindromes (two character center)
+            int len2 = expandAroundCenter(str, i, i + 1);
 
-				int flag = 1;
+            int len = Math.max(len1, len2); // Maximum of both lengths
 
-				for ( int k = 0; k < (j - i + 1) / 2; k ++ ) {
+            // Update start and end if a longer palindrome is found
+            if (len > endIndex - startIndex) {
+                startIndex = i - (len - 1) / 2;
+                endIndex = i + len / 2;
+            }
+        }
 
-					if ( str.charAt(i + k) != str.charAt(j - k) )
+        return str.substring(startIndex, endIndex + 1); // Return the longest palindrome substring
+    }
 
-						flag = 0;
-				}
+    // Helper method to expand around the center and find the length of the palindrome
+    static int expandAroundCenter(String str, int leftIndex, int rightIndex) {
+        while (leftIndex >= 0 && rightIndex < str.length() && str.charAt(leftIndex) == str.charAt(rightIndex)) {
+            leftIndex--;
+            rightIndex++;
+        }
+        return rightIndex - leftIndex - 1; // Return the length of the palindrome
+    }
 
-
-				if ( flag != 0 && (j - i + 1) > maxLength) {
-
-					start = i;
-
-					maxLength = j - i + 1;
-				}
-			}
-		}
-
-		System.out.print("Longest palindrome subString is: ");
-
-		printSubStr(str, start, start + maxLength - 1);
-
-		return maxLength;
-	}
-
-	static void printSubStr(String str, int low, int high) {
-
-		for (int i = low; i <= high; ++i)
-
-			System.out.print(str.charAt(i));
-	}
-
+    // Optional method to find only the length of the longest palindrome
+    static int longestPalSubstrLength(String str) {
+        String longestPalindrome = longestPalSubstr(str);
+        return longestPalindrome.length();
+    }
 }
