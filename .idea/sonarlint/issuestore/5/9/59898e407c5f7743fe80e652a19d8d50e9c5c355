@@ -1,0 +1,10 @@
+
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ëÎ²Êûÿÿÿÿ
+S
+java:S1854	"8Remove this useless assignment to local variable "str1".(‡Çæíÿÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ
+D
+java:S1481	")Remove this unused "str1" local variable.(‡Çæíÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(·¬¦ƒûÿÿÿÿ

@@ -1,0 +1,18 @@
+
+t
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(İ¤¸ùÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ë¸üÿÿÿÿ
+e	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ÙÄy
+k	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Éù‡ùÿÿÿÿ
+k	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢íóÔùÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…Äà«üÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ë¸üÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¯Ë¸üÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ˆŠ¨ùÿÿÿÿ
+b	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ÙÄy
+?
+java:S1197,"*Move the array designators [] to the type.(¡ÙÄy
+E	java:S1068"+Replace this use of System.out by a logger.(ìÅù»ûÿÿÿÿ
+E
+java:S1197F"*Move the array designators [] to the type.(¼µîİûÿÿÿÿ

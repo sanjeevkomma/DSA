@@ -1,0 +1,18 @@
+
+o
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(œíï€
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(â¿æ›üÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¯šĞóøÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(”Ò‰®
+@	java:S106"+Replace this use of System.out by a logger.(õÜù¦
+E	java:S106"+Replace this use of System.out by a logger.(óü‚¿ıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¥ÓÙáúÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(şúÀ·ÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¯ÜŒç
+@	java:S106"+Replace this use of System.out by a logger.(ğÖ¥á
+E	java:S106"+Replace this use of System.out by a logger.(Ä¬éşÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(åôçšüÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(–Ëÿÿÿÿÿÿ
