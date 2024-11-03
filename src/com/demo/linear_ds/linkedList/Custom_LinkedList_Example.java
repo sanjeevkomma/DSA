@@ -1,4 +1,4 @@
-package com.demo.tech;
+package com.demo.linear_ds.linkedList;
 
 class Node {
 
