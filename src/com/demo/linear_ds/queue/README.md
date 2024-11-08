@@ -18,3 +18,13 @@
 4. LinkedBlockingQueue as a Blocking Queue
 5. ConcurrentLinkedQueue as a Concurrent Queue
 6. ArrayBlockingQueue as a Fixed-Size Blocking Queue
+
+# Queue Types and Implementations in Java
+|SNo| #Queue Type  |#Java Class| #Description |
+| :---| :--- | :--- | :--- | 
+|1 | Simple Queue |LinkedList |FIFO queue with dynamic size |
+|2 | Double-Ended Queue |ArrayDeque |Allows insertion/removal from both ends. |
+|3 | Priority Queue |PriorityQueue |Orders elements by natural ordering or custom comparator. |
+|4 | Blocking Queue |LinkedBlockingQueue |Thread-safe queue with blocking operations. |
+|5 | Concurrent Queue |ConcurrentLinkedQueue |Thread-safe, non-blocking queue for high-concurrency environments. |
+|6 | Fixed-Size Queue |ArrayBlockingQueue |Bounded blocking queue with fixed capacity. |
