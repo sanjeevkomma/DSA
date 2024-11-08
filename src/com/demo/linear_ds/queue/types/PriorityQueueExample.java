@@ -1,5 +1,6 @@
 import java.util.PriorityQueue;
 
+// PriorityQueue as a Priority Queue
 // PriorityQueue provides a priority-based queue where elements are ordered according to their natural ordering or by a custom comparator.
 
 public class PriorityQueueExample {
