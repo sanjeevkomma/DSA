@@ -1,6 +1,7 @@
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+// LinkedBlockingQueue as a Blocking Queue
 // LinkedBlockingQueue is a thread-safe queue that supports blocking operations. It’s often used in producer-consumer scenarios.
 
 public class BlockingQueueExample {
