@@ -1,6 +1,7 @@
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+// ConcurrentLinkedQueue as a Concurrent Queue
 // ConcurrentLinkedQueue is a thread-safe, non-blocking queue suitable for high-throughput applications where multiple threads may access the queue concurrently.
 
 public class ConcurrentQueueExample {
