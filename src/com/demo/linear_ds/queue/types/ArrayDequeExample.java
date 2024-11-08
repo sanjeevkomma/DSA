@@ -1,5 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
+
+// ArrayDeque as a Double-Ended Queue (Deque)
 // ArrayDeque implements the Deque interface and allows insertion and deletion at both ends.
 
 public class ArrayDequeExample {
