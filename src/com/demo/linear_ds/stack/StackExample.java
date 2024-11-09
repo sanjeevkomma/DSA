@@ -4,6 +4,7 @@ import java.util.Stack;
 
 // A stack is a Last-In-First-Out (LIFO) data structure
 // where elements are added and removed from the same end (top).
+// Using Stack Class from Java's java.util Package
 public class StackExample {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
@@ -18,6 +19,8 @@ public class StackExample {
 
         // Displaying top element
         System.out.println("Top element: " + stack.peek());
+
+        System.out.println("Is stack empty? " + stack.isEmpty());
     }
 }
 
