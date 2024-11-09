@@ -9,7 +9,7 @@ The ArrayDeque class, part of Java’s java.util package,
 **/
 
 
-public class StackUsingArrayDeque {
+public class StackUsingArrayDeque_Example {
     public static void main(String[] args) {
         ArrayDeque<Integer> stack = new ArrayDeque<>();
 

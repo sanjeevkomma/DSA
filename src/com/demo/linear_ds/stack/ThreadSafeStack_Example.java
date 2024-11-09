@@ -12,7 +12,7 @@ import java.util.List;
  or ConcurrentLinkedDeque for higher performance.
  */
 
-public class ThreadSafeStack {
+public class ThreadSafeStack_Example {
     public static void main(String[] args) {
         List<Integer> stack = Collections.synchronizedList(new LinkedList<>());
 
