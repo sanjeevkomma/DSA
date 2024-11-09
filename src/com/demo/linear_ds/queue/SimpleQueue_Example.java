@@ -6,7 +6,7 @@ import java.util.Queue;
 // LinkedList as a Simple Queue
 // The LinkedList class in Java implements the Queue interface, providing a basic FIFO queue structure.
 
-public class SimpleQueueExample {
+public class SimpleQueue_Example {
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>();
         
