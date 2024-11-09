@@ -2,15 +2,12 @@ package com.demo.nonlinear_ds.tree;
 
 // Binary Search Tree (BST) Example
 
-class TreeNode {
-    int data;
-    TreeNode left, right;
-
-    public TreeNode(int item) {
-        data = item;
-        left = right = null;
-    }
-}
+/**
+ A binary search tree is a binary tree with an ordering constraint:
+ for each node, all values in the left subtree are smaller,
+ and all values in the right subtree are larger.
+ BSTs allow efficient searching, insertion, and deletion.
+ */
 
 class BinarySearchTree {
     TreeNode root;
