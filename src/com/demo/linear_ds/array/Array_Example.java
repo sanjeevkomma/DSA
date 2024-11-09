@@ -2,7 +2,7 @@ package com.demo.linear_ds.array;
 
 // An array is a collection of elements of the same type stored in contiguous memory locations.
 // Each element can be accessed by its index.
-public class ArrayExample {
+public class Array_Example {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
 
