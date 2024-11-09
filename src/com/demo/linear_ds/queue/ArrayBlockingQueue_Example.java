@@ -1,4 +1,4 @@
-package com.demo.linear_ds.queue.types;
+package com.demo.linear_ds.queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -6,7 +6,7 @@ import java.util.concurrent.BlockingQueue;
 // ArrayBlockingQueue as a Fixed-Size Blocking Queue
 // ArrayBlockingQueue is a bounded blocking queue backed by an array. It’s useful when you need a queue with a fixed capacity that supports thread-safe blocking operations.
 
-public class ArrayBlockingQueueExample {
+public class ArrayBlockingQueue_Example {
     public static void main(String[] args) throws InterruptedException {
         BlockingQueue<Integer> arrayBlockingQueue = new ArrayBlockingQueue<>(2);
 

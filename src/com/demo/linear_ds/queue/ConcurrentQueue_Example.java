@@ -1,4 +1,4 @@
-package com.demo.linear_ds.queue.types;
+package com.demo.linear_ds.queue;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 // ConcurrentLinkedQueue as a Concurrent Queue
 // ConcurrentLinkedQueue is a thread-safe, non-blocking queue suitable for high-throughput applications where multiple threads may access the queue concurrently.
 
-public class ConcurrentQueueExample {
+public class ConcurrentQueue_Example {
     public static void main(String[] args) {
         Queue<String> concurrentQueue = new ConcurrentLinkedQueue<>();
 

@@ -1,4 +1,4 @@
-package com.demo.linear_ds.queue.types;
+package com.demo.linear_ds.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

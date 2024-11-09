@@ -1,4 +1,4 @@
-package com.demo.linear_ds.queue.types;
+package com.demo.linear_ds.queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -6,7 +6,7 @@ import java.util.Deque;
 // ArrayDeque as a Double-Ended Queue (Deque)
 // ArrayDeque implements the Deque interface and allows insertion and deletion at both ends.
 
-public class ArrayDequeExample {
+public class ArrayDeque_Example {
     public static void main(String[] args) {
         Deque<String> deque = new ArrayDeque<>();
         
