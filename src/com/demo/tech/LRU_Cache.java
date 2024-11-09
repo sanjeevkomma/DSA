@@ -1,4 +1,4 @@
-package com.demo.algorithms.algos;
+package com.demo.tech;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ import java.util.Map;
 */
 
 
- * Time Complexity = O(1) for get & put operations
+ /* Time Complexity = O(1) for get & put operations
  * Space Complexity = 
  */
 
