@@ -1,3 +1,5 @@
+package com.demo.linear_ds.queue.types;
+
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
