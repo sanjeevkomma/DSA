@@ -1,25 +1,26 @@
 package com.demo.linear_ds.queue;
 
-// time complexity = O(1) for enqueue and dequeue operations
+class CircularQueueUsingArray {
+    private int[] queue;
+    private int front, rear, size, capacity;
 
-class QueueUsingLinkedList {
-    private Node front, rear;
-    private int size;
-
-    public QueueUsingLinkedList() {
-        this.front = this.rear = null;
-        this.size = 0;
+    // Constructor to initialize the queue
+    public CircularQueueUsingArray(int capacity) {
+        this.capacity = capacity;
+        queue = new int[capacity];
+        front = 0;
+        rear = -1;
+        size = 0;
     }
 
     // Add an element to the queue
     public void enqueue(int item) {
-        Node newNode = new Node(item);
-        if (rear == null) {
-            front = rear = newNode;
-        } else {
-            rear.next = newNode;
-            rear = newNode;
+        if (isFull()) {
+            System.out.println("Queue is full. Cannot enqueue " + item);
+            return;
         }
+        rear = (rear + 1) % capacity; // Circular increment
+        queue[rear] = item;
         size++;
         System.out.println("Enqueued: " + item);
     }
@@ -30,11 +31,8 @@ class QueueUsingLinkedList {
             System.out.println("Queue is empty. Cannot dequeue.");
             return -1;
         }
-        int item = front.data;
-        front = front.next;
-        if (front == null) { // If the queue is now empty
-            rear = null;
-        }
+        int item = queue[front];
+        front = (front + 1) % capacity; // Circular increment
         size--;
         System.out.println("Dequeued: " + item);
         return item;
@@ -46,12 +44,17 @@ class QueueUsingLinkedList {
             System.out.println("Queue is empty. No element to peek.");
             return -1;
         }
-        return front.data;
+        return queue[front];
     }
 
     // Check if the queue is empty
     public boolean isEmpty() {
-        return front == null;
+        return size == 0;
+    }
+
+    // Check if the queue is full
+    public boolean isFull() {
+        return size == capacity;
     }
 
     // Get the current size of the queue
@@ -60,14 +63,15 @@ class QueueUsingLinkedList {
     }
 }
 
-public class QueueUsingLinkedList_Example {
+public class CircularQueueUsingArray_Example {
     public static void main(String[] args) {
-        QueueUsingLinkedList queue = new QueueUsingLinkedList();
+        CircularQueueUsingArray queue = new CircularQueueUsingArray(5);
 
         queue.enqueue(10);
         queue.enqueue(20);
         queue.enqueue(30);
         queue.enqueue(40);
+        queue.enqueue(50);
 
         System.out.println("Front element is: " + queue.peek());
 
@@ -76,7 +80,7 @@ public class QueueUsingLinkedList_Example {
 
         System.out.println("Queue size is: " + queue.getSize());
 
-        queue.enqueue(50);
+        queue.enqueue(60);
 
         while (!queue.isEmpty()) {
             System.out.println("Dequeueing element: " + queue.dequeue());
@@ -90,14 +94,16 @@ Enqueued: 10
 Enqueued: 20
 Enqueued: 30
 Enqueued: 40
+Enqueued: 50
 Front element is: 10
 Dequeued: 10
 Dequeued: 20
-Queue size is: 2
-Enqueued: 50
+Queue size is: 3
+Enqueued: 60
 Dequeueing element: 30
 Dequeueing element: 40
 Dequeueing element: 50
+Dequeueing element: 60
 Queue is empty. Cannot dequeue.
 
  */

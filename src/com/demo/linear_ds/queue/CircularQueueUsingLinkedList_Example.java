@@ -1,12 +1,9 @@
 package com.demo.linear_ds.queue;
-
-// time complexity = O(1) for enqueue and dequeue operations
-
-class QueueUsingLinkedList {
+class CircularQueueUsingLinkedList {
     private Node front, rear;
     private int size;
 
-    public QueueUsingLinkedList() {
+    public CircularQueueUsingLinkedList() {
         this.front = this.rear = null;
         this.size = 0;
     }
@@ -14,12 +11,17 @@ class QueueUsingLinkedList {
     // Add an element to the queue
     public void enqueue(int item) {
         Node newNode = new Node(item);
-        if (rear == null) {
+
+        // If the queue is empty, both front and rear will point to the new node
+        if (isEmpty()) {
             front = rear = newNode;
+            newNode.next = front; // Circular linkage
         } else {
-            rear.next = newNode;
-            rear = newNode;
+            rear.next = newNode;  // Link current rear to the new node
+            rear = newNode;       // Update the rear to the new node
+            rear.next = front;    // Circular linkage
         }
+
         size++;
         System.out.println("Enqueued: " + item);
     }
@@ -30,11 +32,17 @@ class QueueUsingLinkedList {
             System.out.println("Queue is empty. Cannot dequeue.");
             return -1;
         }
+
         int item = front.data;
-        front = front.next;
-        if (front == null) { // If the queue is now empty
-            rear = null;
+
+        // If there is only one element in the queue
+        if (front == rear) {
+            front = rear = null;
+        } else {
+            front = front.next; // Move front to the next node
+            rear.next = front;  // Maintain circular linkage
         }
+
         size--;
         System.out.println("Dequeued: " + item);
         return item;
@@ -59,10 +67,9 @@ class QueueUsingLinkedList {
         return size;
     }
 }
-
-public class QueueUsingLinkedList_Example {
+public class CircularQueueUsingLinkedList_Example {
     public static void main(String[] args) {
-        QueueUsingLinkedList queue = new QueueUsingLinkedList();
+        CircularQueueUsingLinkedList queue = new CircularQueueUsingLinkedList();
 
         queue.enqueue(10);
         queue.enqueue(20);
@@ -83,21 +90,3 @@ public class QueueUsingLinkedList_Example {
         }
     }
 }
-
-// Output
-/*
-Enqueued: 10
-Enqueued: 20
-Enqueued: 30
-Enqueued: 40
-Front element is: 10
-Dequeued: 10
-Dequeued: 20
-Queue size is: 2
-Enqueued: 50
-Dequeueing element: 30
-Dequeueing element: 40
-Dequeueing element: 50
-Queue is empty. Cannot dequeue.
-
- */
