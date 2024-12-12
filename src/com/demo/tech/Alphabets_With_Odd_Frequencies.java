@@ -23,7 +23,7 @@ public class Alphabets_With_Odd_Frequencies {
 	        for(int i = 0;
 	                i < Math.min(n, 24); i++)
 	        {
-	            ans += (char)('b' + i);
+	            ans += (char)('b' + i); 
 	        }
 	         
 	        // Append a to fill the
