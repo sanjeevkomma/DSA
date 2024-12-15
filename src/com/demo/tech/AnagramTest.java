@@ -11,8 +11,6 @@ public class AnagramTest {
 
 
 
-
-
     static boolean isAnagramOrNot(String str1, String str2){
 
         boolean isAnagram = false;
