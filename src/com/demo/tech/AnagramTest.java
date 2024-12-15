@@ -9,8 +9,6 @@ public class AnagramTest {
         System.out.println(isAnagramOrNot(str1,str2));
     }
 
-
-
     static boolean isAnagramOrNot(String str1, String str2){
 
         boolean isAnagram = false;
