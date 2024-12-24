@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- 1. level-order traversal implementation
- 2. level by level OR breadth by breadth
+ 1. level-order traversal / level-order approach implementation
+ 2. level by level approach OR breadth by breadth approach
  3. Breadth-First Traversal is the process of visiting all the nodes in a tree or graph level by level
  or breadth by breadth, typically starting from a root node
 
@@ -23,8 +23,12 @@ public class BreadthFirstTraversal {
             TreeNode current = queue.poll();
             System.out.print(current.data + " ");
 
-            if (current.left != null) queue.add(current.left);
-            if (current.right != null) queue.add(current.right);
+            if (current.left != null){
+                queue.add(current.left);
+            }
+            if (current.right != null){
+                queue.add(current.right);
+            }
         }
     }
 

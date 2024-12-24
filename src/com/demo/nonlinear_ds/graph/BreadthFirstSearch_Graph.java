@@ -8,8 +8,8 @@ import java.util.Set;
 /**
  * 1. Breadth-First Search is a goal-oriented algorithm that explores all possible nodes level by level
  * in search of a specific node or path
- * 2. It uses the same level-order approach as BFT but includes additional logic to determine
- * if the desired node or condition is found
+ * 2. It uses the same level-order approach / level-order traversal as BFT but includes additional logic
+ * to determine if the desired node or condition is found
  * <p>
  * Purpose
  * ------
