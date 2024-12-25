@@ -1,4 +1,4 @@
-package com.demo.algorithms.searching;
+package com.demo.algos.searching_algos;
 /***
 
 Approach = Iterative Approach

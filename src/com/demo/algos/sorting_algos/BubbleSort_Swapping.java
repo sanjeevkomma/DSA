@@ -1,4 +1,4 @@
-package com.demo.algorithms.sorting;
+package com.demo.algos.sorting_algos;
 
 /***
 
