@@ -1,10 +1,15 @@
 package com.demo.nonlinear_ds.tree;
 
 /*
-A binary tree is a tree data structure where each node has at most two children,
- referred to as the left child and the right child.
- This structure is commonly used as a foundation for more specific types of trees
+1. A binary tree is a tree data structure where each node has at most two children,
+referred to as the left child and the right child.
+2. This structure is commonly used as a foundation for more specific types of trees
   like binary search trees (BST) and binary heaps.
+3. Binary Tree Traversal involves visiting all the nodes in a binary tree in a specific order.
+       * PreOrder: root -> left -> right
+       * InOrder: left -> root -> right
+       * PostOrder: left -> right -> root
+4. Use Recursion or Stack to traverse the tree in order
  */
 
 class BinaryTree {
@@ -35,7 +40,7 @@ class BinaryTree {
         }
     }
 }
-public class BinaryTree_Example {
+public class BinaryTreeTraversal_Example {
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         tree.root = new TreeNode(1);

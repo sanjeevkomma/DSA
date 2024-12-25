@@ -16,6 +16,11 @@ import java.util.Stack;
  * Can use recursive or iterative (stack-based) implementation.
  * Explores paths in depth order.
 
+ Explanation:
+ -----------
+ 1. Use recursion or a stack to traverse each path from the root to the leaves.
+ 2. Record each path as you traverse.
+
  Algorithm
  ---------
  1. Push the root/start node to the stack
