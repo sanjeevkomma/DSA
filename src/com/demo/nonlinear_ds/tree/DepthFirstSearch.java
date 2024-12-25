@@ -1,5 +1,9 @@
 package com.demo.nonlinear_ds.tree;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 /**
  Definition
  ----------
@@ -20,18 +24,59 @@ package com.demo.nonlinear_ds.tree;
        ii) Process it.
        iii) Push its neighbors/children
 
+ DFS (Stack):
  Example (Preorder in Trees):
  ----------------------------
  Tree:
-  1
+  7
  / \
- 2   3
+ 2   5
  / \    \
- 4   5    6
+ 9   6    3
 
- DFS Output (Preorder): [1, 2, 4, 5, 3, 6]
+ DFS Output (Preorder): [7, 2, 9, 6, 5, 3]
 
- Push/Pop: Start with 1 → Push 2 → Push 4 → Pop 4 → Push 5 → Pop 5...
+ Push/Pop: Start with 7 → Push 2 → Push 9 → Pop 9 → Push 6 → Pop 6...
  */
 public class DepthFirstSearch {
+
+    public List<Integer> depthFirstSearch(TreeNode root) {
+        List<Integer> result = new ArrayList<Integer>();
+        if (root == null) {
+            return result;
+        }
+
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            TreeNode currentNode = stack.pop();
+            result.add(currentNode.data); // Process the node
+
+            // Push right and then left child to the stack
+            // Right first ensures that left is processed first
+            if (currentNode.right != null) {
+                stack.push(currentNode.right);
+            }
+            if (currentNode.left != null) {
+                stack.push(currentNode.left);
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        // Build the tree: [7, 2, 5, 9, 6, null, 3]
+        TreeNode root = new TreeNode(7);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(5);
+        root.left.left = new TreeNode(9);
+        root.left.right = new TreeNode(6);
+        root.right.right = new TreeNode(3);
+
+        DepthFirstSearch dfs = new DepthFirstSearch();
+        List<Integer> result = dfs.depthFirstSearch(root);
+
+        System.out.println(result); // Output: [7, 2, 9, 6, 5, 3]
+    }
 }

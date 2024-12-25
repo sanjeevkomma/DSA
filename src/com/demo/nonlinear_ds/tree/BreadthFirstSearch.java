@@ -27,7 +27,7 @@ public class BreadthFirstSearch {
     public static void breadthFirstSearch(TreeNode root) {
         if (root == null) return;
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.add(root);
 
         System.out.println("Initial Queue: " + queueToString(queue)); // Debug: Initial queue state
