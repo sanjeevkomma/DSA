@@ -17,10 +17,8 @@
 2. **Choose a Data Structure:** Use an array, dictionary, or similar data structure to store intermediate results.
 3. **Modify the Recursion:** Before solving a subproblem, check if the result is already stored. If yes, return it; if not, compute and store it.
 
-
-
-# Approaches for Dynamic Programming
-
+# Comparison of Methods for Time & Space Complexity
+* ![image](https://github.com/user-attachments/assets/3d8b4f0c-b06c-4bd3-8c9f-bee42c5a55da)
 
 # Reference
 * [Dynamic Programming](https://www.javatpoint.com/dynamic-programming)
