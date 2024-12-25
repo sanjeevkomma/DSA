@@ -17,7 +17,7 @@ Explanation:
         i) At the end of traversal, the root of the heap (peek()) is the k-th largest element.
 
 
-Time Complexity:
+Time Complexity: O(Nlogk)
 ----------------
    * O(Nlogk), where N is the size of the array.
    * Inserting into the heap takes O(logk), and we process N elements
