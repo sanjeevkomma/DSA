@@ -8,6 +8,7 @@ import java.util.Queue;
  2. level by level approach OR breadth by breadth approach
  3. Breadth-First Traversal is the process of visiting all the nodes in a tree or graph level by level
  or breadth by breadth, typically starting from a root node
+ 4. It uses a queue data structure to achieve this
 
  */
 

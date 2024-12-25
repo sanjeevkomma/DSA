@@ -22,7 +22,7 @@ import java.util.Set;
  * 2. Searching for a specific value in a tree or graph.
  */
 
-public class BreadthFirstSearch_Graph {
+public class BreadthFirstSearch {
 
     public static void breadthFirstSearch(GraphNode startNode) {
         Queue<GraphNode> queue = new LinkedList<>();

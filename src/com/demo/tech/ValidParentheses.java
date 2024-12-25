@@ -6,11 +6,9 @@ public class ValidParentheses {
 
     public static void main(String args[]) {
 
-        String str1 = "([([([])]))";
+        String str1 = "([([([])]))"; // "([]{})";
 
-        String str2 = "([]{})";
-
-        System.out.println(isValid(str2));
+        System.out.println(isValid(str1));
 
     }
 

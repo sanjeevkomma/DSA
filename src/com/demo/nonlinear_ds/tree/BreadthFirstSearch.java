@@ -2,8 +2,27 @@ package com.demo.nonlinear_ds.tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
+/**
+ 1. level-order traversal / level-order approach implementation
+ 2. level by level approach OR breadth by breadth approach
+ 3. Breadth-First Traversal is the process of visiting all the nodes in a tree or graph level by level
+ or breadth by breadth, typically starting from a root node
+ 4. It uses a queue data structure to achieve this
 
-public class BreadthFirstSearch_Tree {
+ BFS (Queue):
+ ------------
+ 1
+ / \
+ 2   3
+ / \    \
+ 4   5    6
+
+ Traversal: [1, 2, 3, 4, 5, 6]
+
+ Enqueue: Start with 1 → [2, 3] → [4, 5, 6]...
+
+ */
+public class BreadthFirstSearch {
 
     public static void breadthFirstSearch(TreeNode root) {
         if (root == null) return;
