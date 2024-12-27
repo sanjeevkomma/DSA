@@ -1,18 +1,4 @@
-package com.demo.linear_ds.linkedList;
-
-class Node {
-
-	int data;
-
-	Node nextNode;
-
-	Node(int data) {
-
-		this.data = data;
-
-		this.nextNode = null;
-	}
-}
+package com.demo.linear_ds.linkedList.problems;
 
 class CustomLinkedList {
 
@@ -31,12 +17,12 @@ class CustomLinkedList {
 
 			Node currentNode = headNode;
 
-			while( currentNode.nextNode != null ) {
+			while( currentNode.next != null ) {
 
-				currentNode = currentNode.nextNode;
+				currentNode = currentNode.next;
 			}
 
-			currentNode.nextNode = newNode;
+			currentNode.next = newNode;
 		}
 	}
 
@@ -46,7 +32,7 @@ class CustomLinkedList {
 
 		Node newNode = new Node(data);
 
-		newNode.nextNode = headNode;
+		newNode.next = headNode;
 
 		headNode = newNode;
 	}
@@ -66,12 +52,12 @@ class CustomLinkedList {
 
 			for( int i = 0; i < index - 1; i++ ) {
 
-				currentNode = currentNode.nextNode;
+				currentNode = currentNode.next;
 			}
 
-			newNode.nextNode = currentNode.nextNode;
+			newNode.next = currentNode.next;
 
-			currentNode.nextNode = newNode;
+			currentNode.next = newNode;
 		}
 	}
 
@@ -80,7 +66,7 @@ class CustomLinkedList {
 
 		if( index == 0 ) {
 
-			headNode = headNode.nextNode;
+			headNode = headNode.next;
 
 		} else {
 
@@ -88,10 +74,10 @@ class CustomLinkedList {
 
 			for( int i = 0; i < index - 1; i++ ) {
 
-				currentNode = currentNode.nextNode;
+				currentNode = currentNode.next;
 			}
 
-			currentNode.nextNode = currentNode.nextNode.nextNode;
+			currentNode.next = currentNode.next.next;
 		}
 	}
 
@@ -109,9 +95,9 @@ class CustomLinkedList {
 			System.out.print("elements in Linked list: ");
 			while( currentNode != null ) {
 
-				System.out.print(currentNode.data + " ");
+				System.out.print(currentNode.val + " ");
 
-				currentNode = currentNode.nextNode;
+				currentNode = currentNode.next;
 			}
 		}
 	}
@@ -125,32 +111,32 @@ class CustomLinkedList {
 
 		int length = 0;
 
-		while( currentNode.nextNode != null ) {
+		while( currentNode.next != null ) {
 
 			length ++ ;
 
 			if( length % 2 == 0 ) {
 
-				middleNode = middleNode.nextNode;
+				middleNode = middleNode.next;
 
 			}
 
-			currentNode = currentNode.nextNode;
+			currentNode = currentNode.next;
 		}
 
 		if( length % 2 == 1 ){
 
-			middleNode = middleNode.nextNode;
+			middleNode = middleNode.next;
 		}
 
 		System.out.println("length of LinkedList: " + length );
 
-		System.out.println("middle element of LinkedList : " + middleNode.data );
+		System.out.println("middle element of LinkedList : " + middleNode.val );
 	}
 
 }
 
-public class Custom_LinkedList_Example {
+public class CustomLinkedList_Example {
 
 	public static void main(String[] args) {
 
