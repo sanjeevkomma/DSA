@@ -14,21 +14,21 @@ import java.util.Queue;
 
 public class BreadthFirstTraversal {
 
-    public static void breadthFirstTraversal(TreeNode root) {
-        if (root == null) return;
+    public static void breadthFirstTraversal(TreeNode rootNode) {
+        if (rootNode == null) return;
 
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.add(rootNode);
 
         while (!queue.isEmpty()) {
-            TreeNode current = queue.poll();
-            System.out.print(current.data + " ");
+            TreeNode currentNode = queue.poll(); // Remove & Return element
+            System.out.print(currentNode.val + " ");
 
-            if (current.left != null){
-                queue.add(current.left);
+            if (currentNode.left != null){
+                queue.add(currentNode.left);
             }
-            if (current.right != null){
-                queue.add(current.right);
+            if (currentNode.right != null){
+                queue.add(currentNode.right);
             }
         }
     }

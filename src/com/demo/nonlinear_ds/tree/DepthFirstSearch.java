@@ -45,27 +45,29 @@ import java.util.Stack;
  */
 public class DepthFirstSearch {
 
-    public List<Integer> depthFirstSearch(TreeNode root) {
+    public List<Integer> depthFirstSearch(TreeNode rootNode) {
         List<Integer> result = new ArrayList<Integer>();
-        if (root == null) {
+        if (rootNode == null) {
             return result;
         }
 
         Stack<TreeNode> stack = new Stack<TreeNode>();
-        stack.push(root);
+        stack.push(rootNode);
 
         while (!stack.isEmpty()) {
-            TreeNode currentNode = stack.pop();
-            result.add(currentNode.data); // Process the node
+            TreeNode currentNode = stack.pop(); // Remove & Return element
+            result.add(currentNode.val); // Process the node
 
             // Push right and then left child to the stack
             // Right first ensures that left is processed first
-            if (currentNode.right != null) {
-                stack.push(currentNode.right);
-            }
+
             if (currentNode.left != null) {
                 stack.push(currentNode.left);
             }
+            if (currentNode.right != null) {
+                stack.push(currentNode.right);
+            }
+
         }
         return result;
     }

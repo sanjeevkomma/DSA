@@ -34,7 +34,7 @@ public class BreadthFirstSearch {
 
         while (!queue.isEmpty()) {
             TreeNode current = queue.poll();
-            System.out.println("Visited: " + current.data);
+            System.out.println("Visited: " + current.val);
 
             // Add children to the queue
             if (current.left != null) queue.add(current.left);
@@ -49,7 +49,7 @@ public class BreadthFirstSearch {
     public static String queueToString(Queue<TreeNode> queue) {
         StringBuilder sb = new StringBuilder();
         for (TreeNode node : queue) {
-            sb.append(node.data).append(" ");
+            sb.append(node.val).append(" ");
         }
         return sb.toString().trim();
     }

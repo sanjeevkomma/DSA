@@ -19,14 +19,14 @@ class BinaryTree {
     public void inOrder(TreeNode node) {
         if (node != null) {
             inOrder(node.left);
-            System.out.print(node.data + " ");
+            System.out.print(node.val + " ");
             inOrder(node.right);
         }
     }
 
     public void preOrder(TreeNode node) {
         if (node != null) {
-            System.out.print(node.data + " ");
+            System.out.print(node.val + " ");
             preOrder(node.left);
             preOrder(node.right);
         }
@@ -36,7 +36,7 @@ class BinaryTree {
         if (node != null) {
             postOrder(node.left);
             postOrder(node.right);
-            System.out.print(node.data + " ");
+            System.out.print(node.val + " ");
         }
     }
 }

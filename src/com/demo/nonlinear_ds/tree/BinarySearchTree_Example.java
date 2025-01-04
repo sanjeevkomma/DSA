@@ -18,9 +18,9 @@ class BinarySearchTree {
             root = new TreeNode(data);
             return root;
         }
-        if (data < root.data) {
+        if (data < root.val) {
             root.left = insert(root.left, data);
-        } else if (data > root.data) {
+        } else if (data > root.val) {
             root.right = insert(root.right, data);
         }
         return root;
@@ -30,7 +30,7 @@ class BinarySearchTree {
     public void inOrder(TreeNode root) {
         if (root != null) {
             inOrder(root.left);
-            System.out.print(root.data + " ");
+            System.out.print(root.val + " ");
             inOrder(root.right);
         }
     }

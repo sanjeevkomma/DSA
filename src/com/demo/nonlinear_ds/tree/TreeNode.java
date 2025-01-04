@@ -1,11 +1,11 @@
 package com.demo.nonlinear_ds.tree;
 
 public class TreeNode {
-    int data;
+    int val;
     TreeNode left, right;
 
-    public TreeNode(int data) {
-        this.data = data;
+    public TreeNode(int val) {
+        this.val = val;
         this.left = null;
         this.right = null;
     }
