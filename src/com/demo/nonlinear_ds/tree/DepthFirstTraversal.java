@@ -3,7 +3,6 @@ package com.demo.nonlinear_ds.tree;
 import java.util.Stack;
 
 public class DepthFirstTraversal {
-    TreeNode root;
 
     // Recursive Depth-First Traversal (Preorder)
     public void depthFirstTraversalRecursive(TreeNode node) {
@@ -36,8 +35,6 @@ public class DepthFirstTraversal {
         DepthFirstTraversal dft = new DepthFirstTraversal();
 
         TreeNode tree = new TreeNode(1);
-
-        // Creating a simple tree
         tree.left = new TreeNode(2);
         tree.right = new TreeNode(3);
         tree.left.left = new TreeNode(4);
