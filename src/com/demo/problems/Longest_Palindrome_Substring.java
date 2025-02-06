@@ -1,4 +1,4 @@
-package com.demo.tech;
+package com.demo.problems;
 
 // palindroms : aa , aca , cabac
 

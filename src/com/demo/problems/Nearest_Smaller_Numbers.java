@@ -1,4 +1,4 @@
-package com.demo.tech;
+package com.demo.problems;
 
 public class Nearest_Smaller_Numbers {
 
