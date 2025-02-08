@@ -8,20 +8,28 @@ import java.util.Stack;
 public class Stack_Example {
     public static void main(String[] args) {
 
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<String> stack = new Stack<String>();
 
-        // Pushing elements
-        stack.push(10);
-        stack.push(20);
-        stack.push(30);
-        stack.push(40);
-        stack.push(50);
-        stack.push(60);
+        stack.push("Apple");
+        stack.push("Mango");
+        stack.push("Orange");
+        stack.push("Banana");
+        stack.push("Popagranate");
+        stack.push("Tomato");
+        stack.push("Egg");
 
-        System.out.println(stack.pop()); // Removes & Returns the top of the Stack
-        System.out.println(stack.peek()); // Returns the top of the Stack
 
-        System.out.println(stack.isEmpty());
+        System.out.println("stack1: " + stack);
+
+        System.out.println("peek: " + stack.peek());
+        System.out.println("pop: " + stack.pop());
+        System.out.println("remove1: " + stack.remove(3));
+        System.out.println("remove2: " + stack.remove("Mango"));
+        System.out.println("search: " + stack.search("Orange"));
+        System.out.println("isEmpty: " + stack.isEmpty());
+
+        System.out.println("stack2: " + stack);
+
     }
 }
 

@@ -1,4 +1,4 @@
-package com.demo.linear_ds.stack.problems;
+package com.demo.linear_ds.stack;
 
 import java.util.HashMap;
 import java.util.Map;
