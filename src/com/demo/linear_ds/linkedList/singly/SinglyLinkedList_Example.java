@@ -18,11 +18,11 @@ class SinglyLinkedList {
         if (headNode == null) {
             headNode = newNode;
         } else {
-            Node current = headNode;
-            while (current.nextNode != null) {
-                current = current.nextNode;
+            Node currentNode = headNode;
+            while (currentNode.nextNode != null) {
+                currentNode = currentNode.nextNode;
             }
-            current.nextNode = newNode;
+            currentNode.nextNode = newNode;
         }
     }
 
@@ -41,16 +41,16 @@ class SinglyLinkedList {
             return;
         }
 
-        Node current = headNode;
-        for (int i = 0; i < position - 1 && current != null; i++) {
-            current = current.nextNode;
+        Node currentNode = headNode;
+        for (int i = 0; i < position - 1 && currentNode != null; i++) {
+            currentNode = currentNode.nextNode;
         }
 
-        if (current == null) {
+        if (currentNode == null) {
             System.out.println("Position out of bounds");
         } else {
-            newNode.nextNode = current.nextNode;
-            current.nextNode = newNode;
+            newNode.nextNode = currentNode.nextNode;
+            currentNode.nextNode = newNode;
         }
     }
 
@@ -66,36 +66,36 @@ class SinglyLinkedList {
             return;
         }
 
-        Node current = headNode;
-        while (current.nextNode != null && current.nextNode.val != val) {
-            current = current.nextNode;
+        Node currentNode = headNode;
+        while (currentNode.nextNode != null && currentNode.nextNode.val != val) {
+            currentNode = currentNode.nextNode;
         }
 
-        if (current.nextNode == null) {
+        if (currentNode.nextNode == null) {
             System.out.println("Element not found");
         } else {
-            current.nextNode = current.nextNode.nextNode;
+            currentNode.nextNode = currentNode.nextNode.nextNode;
         }
     }
 
     // Search for a node by value
     public boolean search(int val) {
-        Node current = headNode;
-        while (current != null) {
-            if (current.val == val) {
+        Node currentNode = headNode;
+        while (currentNode != null) {
+            if (currentNode.val == val) {
                 return true;
             }
-            current = current.nextNode;
+            currentNode = currentNode.nextNode;
         }
         return false;
     }
 
     // Display the list
     public void display() {
-        Node current = headNode;
-        while (current != null) {
-            System.out.print(current.val + " -> ");
-            current = current.nextNode;
+        Node currentNode = headNode;
+        while (currentNode != null) {
+            System.out.print(currentNode.val + " -> ");
+            currentNode = currentNode.nextNode;
         }
         System.out.println("null");
     }
