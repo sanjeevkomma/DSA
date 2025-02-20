@@ -1,104 +1,101 @@
 package com.demo.linear_ds.linkedList.singly;
 class Node {
-    int data;
-      Node next;
+    int val;
+    Node nextNode;
 
-    public Node(int data) {
-        this.data = data;
-        this.next = null;
+    public Node(int val) {
+        this.val = val;
+        this.nextNode = null;
     }
 }
 class SinglyLinkedList {
-    private Node head;
 
-    public SinglyLinkedList() {
-        this.head = null;
-    }
+    private Node headNode = null;
 
     // Add a node at the end of the list
-    public void add(int data) {
-        Node newNode = new  Node(data);
-        if (head == null) {
-            head = newNode;
+    public void add(int val) {
+        Node newNode = new  Node(val);
+        if (headNode == null) {
+            headNode = newNode;
         } else {
-            Node current = head;
-            while (current.next != null) {
-                current = current.next;
+            Node current = headNode;
+            while (current.nextNode != null) {
+                current = current.nextNode;
             }
-            current.next = newNode;
+            current.nextNode = newNode;
         }
     }
 
     // Add a node at the beginning of the list
-    public void addFirst(int data) {
-        Node newNode = new  Node(data);
-        newNode.next = head;
-        head = newNode;
+    public void addFirst(int val) {
+        Node newNode = new  Node(val);
+        newNode.nextNode = headNode;
+        headNode = newNode;
     }
 
     // Add a node at a specific position
-    public void addAtPosition(int data, int position) {
-        Node newNode = new  Node(data);
+    public void addAtPosition(int val, int position) {
+        Node newNode = new  Node(val);
         if (position == 0) {
-            addFirst(data);
+            addFirst(val);
             return;
         }
 
-        Node current = head;
+        Node current = headNode;
         for (int i = 0; i < position - 1 && current != null; i++) {
-            current = current.next;
+            current = current.nextNode;
         }
 
         if (current == null) {
             System.out.println("Position out of bounds");
         } else {
-            newNode.next = current.next;
-            current.next = newNode;
+            newNode.nextNode = current.nextNode;
+            current.nextNode = newNode;
         }
     }
 
     // Remove a node by value
-    public void remove(int data) {
-        if (head == null) {
+    public void remove(int val) {
+        if (headNode == null) {
             System.out.println("List is empty");
             return;
         }
 
-        if (head.data == data) {
-            head = head.next;
+        if (headNode.val == val) {
+            headNode = headNode.nextNode;
             return;
         }
 
-        Node current = head;
-        while (current.next != null && current.next.data != data) {
-            current = current.next;
+        Node current = headNode;
+        while (current.nextNode != null && current.nextNode.val != val) {
+            current = current.nextNode;
         }
 
-        if (current.next == null) {
+        if (current.nextNode == null) {
             System.out.println("Element not found");
         } else {
-            current.next = current.next.next;
+            current.nextNode = current.nextNode.nextNode;
         }
     }
 
     // Search for a node by value
-    public boolean search(int data) {
-        Node current = head;
+    public boolean search(int val) {
+        Node current = headNode;
         while (current != null) {
-            if (current.data == data) {
+            if (current.val == val) {
                 return true;
             }
-            current = current.next;
+            current = current.nextNode;
         }
         return false;
     }
 
     // Display the list
     public void display() {
-        Node current = head;
+        Node current = headNode;
         while (current != null) {
-            System.out.print(current.data + " -> ");
-            current = current.next;
+            System.out.print(current.val + " -> ");
+            current = current.nextNode;
         }
         System.out.println("null");
     }
