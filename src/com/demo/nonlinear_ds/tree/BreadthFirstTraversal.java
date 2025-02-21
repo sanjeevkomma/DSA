@@ -16,7 +16,7 @@ public class BreadthFirstTraversal {
     public static void breadthFirstTraversal(TreeNode rootNode) {
         if (rootNode == null) return;
 
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(rootNode);
 
         while (!queue.isEmpty()) {

@@ -18,8 +18,8 @@ public class Queue_Example {
 
         System.out.println("Queue1: " + queue);
 
-        System.out.println("peek : " + queue.peek());
-        System.out.println("poll : " + queue.poll());
+        System.out.println("peek : " + queue.peek()); // Returns the head of the Queue(FIFO)
+        System.out.println("poll : " + queue.poll()); // Removes & Returns the head of the Queue(FIFO)
         System.out.println("remove1 : " + queue.remove());
         System.out.println("remove2 : " + queue.remove("Popagranate"));
         System.out.println("front element : " + queue.element());

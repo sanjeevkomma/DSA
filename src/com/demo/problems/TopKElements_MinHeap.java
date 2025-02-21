@@ -34,7 +34,7 @@ public class TopKElements_MinHeap {
         PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>(k);
 
         for (int num : nums) {
-            minHeap.offer(num); // Add current number to the heap
+            minHeap.add(num); // Add current number to the heap
             // Ensure the heap contains only k elements
             if (minHeap.size() > k) {
                 minHeap.poll(); // Remove the smallest element
@@ -47,7 +47,7 @@ public class TopKElements_MinHeap {
 
     public static void main(String args[]) {
 
-        int[] nums = {3, 2, 1, 5, 6, 4};
+        int nums[] = {3, 2, 1, 5, 6, 4};
         int k = 4;
 
         TopKElements_MinHeap solution = new TopKElements_MinHeap();
