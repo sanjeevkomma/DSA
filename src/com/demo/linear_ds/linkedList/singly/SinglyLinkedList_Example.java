@@ -1,4 +1,5 @@
 package com.demo.linear_ds.linkedList.singly;
+
 class Node {
     int val;
     Node nextNode;
@@ -8,6 +9,7 @@ class Node {
         this.nextNode = null;
     }
 }
+
 class SinglyLinkedList {
 
     private Node headNode = null;

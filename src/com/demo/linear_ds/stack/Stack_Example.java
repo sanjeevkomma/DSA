@@ -21,8 +21,8 @@ public class Stack_Example {
 
         System.out.println("stack1: " + stack);
 
-        System.out.println("peek: " + stack.peek());
-        System.out.println("pop: " + stack.pop());
+        System.out.println("peek: " + stack.peek()); // Returns the top element
+        System.out.println("pop: " + stack.pop()); // Removes & Returns the top element
         System.out.println("remove1: " + stack.remove(3));
         System.out.println("remove2: " + stack.remove("Mango"));
         System.out.println("search: " + stack.search("Orange"));
