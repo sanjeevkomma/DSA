@@ -20,7 +20,7 @@ public class LRU_Cache {
 
 	Node head = new Node(0, 0);
 	Node tail = new Node(0,0);
-	Map<Integer,Node> map = new HashMap<Integer, Node>();
+	Map<Integer,Node> map = new HashMap<>();
 	int capacity; 
 
 

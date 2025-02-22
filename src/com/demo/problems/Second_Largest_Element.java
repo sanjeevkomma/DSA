@@ -26,7 +26,7 @@ public class Second_Largest_Element {
 
 		int firstElement = 0 , secondElement = 0 ;
 		
-		for ( int i = 0; i < arr.length; i++ ) {
+		for ( int i = 0; i < arr.length; i ++ ) {
 
 			if ( firstElement < arr[i] ) {
 
