@@ -8,7 +8,7 @@ import java.util.Stack;
 public class Stack_Example {
     public static void main(String[] args) {
 
-        Stack<String> stack = new Stack<String>();
+        Stack<String> stack = new Stack<>();
 
         stack.push("Apple");
         stack.push("Mango");
@@ -22,7 +22,7 @@ public class Stack_Example {
         System.out.println("stack1: " + stack);
 
         System.out.println("peek: " + stack.peek()); // Returns the top element(LIFO)
-        System.out.println("pop: " + stack.pop()); // Removes & Returns the top element
+        System.out.println("pop: " + stack.pop()); // Returns & Removes the top element
         System.out.println("remove1: " + stack.remove(3));
         System.out.println("remove2: " + stack.remove("Mango"));
         System.out.println("search: " + stack.search("Orange"));

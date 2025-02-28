@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 
 public class PriorityQueue_Example {
     public static void main(String[] args) {
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<Integer>();
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
 
         // Enqueue elements
         priorityQueue.add(10);

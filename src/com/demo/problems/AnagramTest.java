@@ -20,7 +20,7 @@ public class AnagramTest {
 
     public static boolean areAnagrams(String str1, String str2) {
         if (str1.length() != str2.length()) return false;
-        Map<Character, Integer> frequencyMap = new HashMap<Character, Integer>();
+        Map<Character, Integer> frequencyMap = new HashMap<>();
         for (char ch : str1.toCharArray()) {
             frequencyMap.put(ch, frequencyMap.getOrDefault(ch, 0) + 1);
         }
