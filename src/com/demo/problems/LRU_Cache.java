@@ -24,10 +24,10 @@ public class LRU_Cache {
 	int capacity; 
 
 
-	public LRU_Cache(int _capacity) {
-		capacity = _capacity;
-		head.next = tail;
-		tail.prev = head; 
+	public LRU_Cache(int capacity) {
+		this.capacity = capacity;
+		head.nextNode = tail;
+		tail.prevNode = head;
 	}
 
 	public int get(int key) {
@@ -48,7 +48,7 @@ public class LRU_Cache {
 			remove(map.get(key));
 		}
 		if(map.size() == capacity) {
-			remove(tail.prev);
+			remove(tail.prevNode);
 		}
 		insert(new Node(key,value));
 	}
@@ -56,8 +56,8 @@ public class LRU_Cache {
 	private void remove(Node node) {
 
 		map.remove(node.key);
-		node.prev.next = node.next;
-		node.next.prev = node.prev;
+		node.prevNode.nextNode = node.nextNode;
+		node.nextNode.prevNode = node.prevNode;
 
 
 	}
@@ -65,11 +65,11 @@ public class LRU_Cache {
 	private void insert(Node node) {
 
 		map.put(node.key, node);
-		Node headNext = head.next;
-		head.next = node;
-		node.prev = head;
-		headNext.prev = node;
-		node.next = headNext;
+		Node headNext = head.nextNode;
+		head.nextNode = node;
+		node.prevNode = head;
+		headNext.prevNode = node;
+		node.nextNode = headNext;
 
 
 	}
@@ -97,10 +97,10 @@ public class LRU_Cache {
 // For Doubly Linked List
 class Node {
 
-	Node prev, next;
+	Node prevNode, nextNode;
 	int key , value;
-	Node(int _key,int _value){
-		key = _key;
-		value = _value;
+	Node(int key,int value){
+		this.key = key;
+		this.value = value;
 	}
 }
