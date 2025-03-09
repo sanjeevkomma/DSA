@@ -15,7 +15,7 @@ public class LongestUniqueSubstring {
 
     public static String findLongestUniqueSubstring(String str) {
 
-        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        Map<Character, Integer> map = new HashMap<>();
         int leftIndex = 0, maxLength = 0, startIndex = 0;
 
         for (int rightIndex = 0; rightIndex < str.length(); rightIndex ++) {
