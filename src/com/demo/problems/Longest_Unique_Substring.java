@@ -11,7 +11,7 @@ Output : Longest unique substring: abc
 Time Complexity : O(n)
 Space Complexity : O(min(n, 256))
 */
-public class LongestUniqueSubstring {
+public class Longest_Unique_Substring {
 
     public static String findLongestUniqueSubstring(String str) {
 
