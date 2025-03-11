@@ -25,7 +25,7 @@ public class Longest_Unique_Substring {
             }
             map.put(currentChar, rightIndex);
 
-            if (rightIndex - leftIndex + 1 > maxLength) {
+            if (maxLength < rightIndex - leftIndex + 1) {
                 maxLength = rightIndex - leftIndex + 1;
                 startIndex = leftIndex;
             }
