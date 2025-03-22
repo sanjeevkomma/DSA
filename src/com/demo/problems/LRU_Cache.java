@@ -83,7 +83,8 @@ public class LRU_Cache {
 		cache.put(2,20);
 		cache.put(3,30);
 
-		cache.get(2);
+		cache.get(1);
+		cache.put(2,200);
 		cache.put(4, 40);
 		//cache.put(5, 50);
 

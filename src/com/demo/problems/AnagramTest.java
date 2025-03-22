@@ -14,7 +14,7 @@ Space Complexity : O(1)
 public class AnagramTest {
 
     public static void main(String args[]) {
-        String str1 = "listen", str2 = "silent";
+        String str1 = "listeb", str2 = "silent";
         System.out.println(areAnagrams(str1, str2));
     }
 
