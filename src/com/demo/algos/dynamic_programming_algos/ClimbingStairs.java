@@ -2,7 +2,7 @@ package com.demo.algos.dynamic_programming_algos;
 
 /*
 
-Approach:
+Approach: Fibonacci-based dynamic programming approach
 ---------
 * The problem can be broken into sub problems:
      1. To reach step n, you must have arrived either from step n-1 (by climbing 1 step)
