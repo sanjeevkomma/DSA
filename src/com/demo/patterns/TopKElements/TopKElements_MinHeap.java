@@ -1,4 +1,4 @@
-package com.demo.problems;
+package com.demo.patterns.TopKElements;
 
 import java.util.PriorityQueue;
 /*
