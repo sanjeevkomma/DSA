@@ -34,14 +34,14 @@ public class BreadthFirstTraversal {
 
     public static void main(String args[]){
 
-        TreeNode treeNode = new TreeNode(5);
-        treeNode.left = new TreeNode(3);
-        treeNode.right = new TreeNode(6);
-        treeNode.left.left = new TreeNode(4);
-        treeNode.left.right = new TreeNode(7);
-        treeNode.right.left = new TreeNode(8);
-        treeNode.right.right = new TreeNode(9);
-        breadthFirstTraversal(treeNode);
+        TreeNode tree = new TreeNode(1);
+        tree.left = new TreeNode(2);
+        tree.right = new TreeNode(3);
+        tree.left.left = new TreeNode(4);
+        tree.left.right = new TreeNode(5);
+        tree.right.left = new TreeNode(6);
+        tree.right.right = new TreeNode(7);
+        breadthFirstTraversal(tree);
     }
 
 }

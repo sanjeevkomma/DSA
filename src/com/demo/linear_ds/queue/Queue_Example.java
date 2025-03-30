@@ -7,7 +7,7 @@ public class Queue_Example {
 
     public static void main(String args[]){
 
-        Queue<String> queue = new LinkedList<String>();
+        Queue<String> queue = new LinkedList<>();
 
         queue.add("Apple");
         queue.add("Banana");
