@@ -7,6 +7,7 @@ import java.util.Queue;
  * PriorityQueue provides a priority-based queue where elements are ordered according
 to their natural ordering or by a custom comparator
  * Elements are sorted in ascending order in Prority Queue
+ * Sorted, No Capacity Limit
  */
 
 

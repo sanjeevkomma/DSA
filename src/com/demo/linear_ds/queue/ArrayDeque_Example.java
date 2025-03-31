@@ -3,8 +3,10 @@ package com.demo.linear_ds.queue;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-// ArrayDeque as a Double-Ended Queue (Deque)
-// ArrayDeque implements the Deque interface and allows insertion and deletion at both ends.
+/* ArrayDeque as a Double-Ended Queue (Deque)
+ ArrayDeque implements the Deque interface and allows insertion and deletion at both ends.
+ Fastest Non-Blocking Queue
+ */
 
 public class ArrayDeque_Example {
     public static void main(String[] args) {

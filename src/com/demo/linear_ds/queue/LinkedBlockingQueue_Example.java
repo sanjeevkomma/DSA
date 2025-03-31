@@ -11,11 +11,13 @@ import java.util.concurrent.LinkedBlockingQueue;
 * It will block producer thread to insert element when queue is full
 * It will block consumer thread to consume element when queue is empty
 * Use BlockingQueue if threads should wait when the queue is empty/full (e.g., Producer-Consumer)
-
+* Linked List, Blocking
+* Similar to ArrayBlockingQueue but uses a linked list (dynamic capacity).
+* Useful when the queue size is unknown
  */
 
 
-public class BlockingQueue_Example {
+public class LinkedBlockingQueue_Example {
     public static void main(String[] args) throws InterruptedException {
         BlockingQueue<String> blockingQueue = new LinkedBlockingQueue<>(3);
 
