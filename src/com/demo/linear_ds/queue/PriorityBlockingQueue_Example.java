@@ -25,8 +25,5 @@ public class PriorityBlockingQueue_Example {
         catch(InterruptedException exception){
 
         }
-
-
-
     }
 }
