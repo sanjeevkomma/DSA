@@ -36,8 +36,8 @@ Output: [7, 7, 7, 7, 7]
 public class MonotonicStack_Example {
 
     public static int[] nextGreaterElement(int nums1[], int nums2[]) {
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>(); // Map to store the next greater element for each number in nums2
-        Stack<Integer> stack = new Stack<Integer>(); // Stack to help find the next greater element
+        Map<Integer, Integer> map = new HashMap<>(); // Map to store the next greater element for each number in nums2
+        Stack<Integer> stack = new Stack<>(); // Stack to help find the next greater element
 
         // Traverse nums2 and populate the map with next greater elements
         for (int num : nums2) {
