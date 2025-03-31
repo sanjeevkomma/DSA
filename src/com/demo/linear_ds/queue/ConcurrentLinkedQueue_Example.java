@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 * Use ConcurrentLinkedQueue if you need a high-performance, non-blocking queue
  */
 
-public class ConcurrentQueue_Example {
+public class ConcurrentLinkedQueue_Example {
     public static void main(String[] args) {
         Queue<String> concurrentQueue = new ConcurrentLinkedQueue<>();
 

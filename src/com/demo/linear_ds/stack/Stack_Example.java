@@ -2,9 +2,14 @@ package com.demo.linear_ds.stack;
 
 import java.util.Stack;
 
-// A stack is a Last-In-First-Out (LIFO) data structure
-// where elements are added and removed from the same end (top).
-// Using Stack Class from Java's java.util Package
+/*
+📌 Part of java.util (extends Vector<E> - thread-safe but slow).
+📌 Uses synchronization (not efficient for high-performance apps).
+📌 Provides push(), pop(), peek(), and search()
+
+✅ Best for: Small-scale, single-threaded applications.
+❌ Not recommended for high-performance tasks due to synchronization overhead.
+ */
 public class Stack_Example {
     public static void main(String[] args) {
 

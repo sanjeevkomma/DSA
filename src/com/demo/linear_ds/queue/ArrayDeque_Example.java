@@ -18,6 +18,7 @@ public class ArrayDeque_Example {
         deque.add("second");
         deque.add("third");
         deque.addLast("Last");
+        // deque.push("fourth");
 
         System.out.println("Deque: " + deque);            // Outputs [First, Last]
 
