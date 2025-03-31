@@ -28,6 +28,8 @@ public class Stack_Example {
         System.out.println("search: " + stack.search("Orange"));
         System.out.println("isEmpty: " + stack.isEmpty());
 
+
+
         System.out.println("stack2: " + stack);
 
     }
