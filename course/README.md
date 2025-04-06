@@ -20,8 +20,9 @@
 4. DataStructures in Daily Life
 * ![image](https://user-images.githubusercontent.com/7721150/231829293-2f64d238-e98a-4ad9-a26f-cf27a0d0ded5.png)
 5. 8 Key Data Structures That Power Modern Databases
-* ![image](https://github.com/user-attachments/assets/4cbd0948-ff8e-4e20-aa52-cd26f211e452)
 * ![image](https://github.com/user-attachments/assets/baf85556-badb-45f2-a556-b24528ccf611)
+* ![image](https://github.com/user-attachments/assets/4cbd0948-ff8e-4e20-aa52-cd26f211e452)
+
 
 
 
