@@ -1,47 +1,24 @@
-package com.demo.linear_ds.queue;
+package com.demo.linear_ds.deque;
 
-class DequeUsingArray {
-    private int[] deque;
-    private int front, rear, size, capacity;
+import java.util.LinkedList;
+
+class DequeUsingLinkedList {
+    private LinkedList<Integer> deque;
 
     // Constructor to initialize the deque
-    public DequeUsingArray(int capacity) {
-        this.capacity = capacity;
-        deque = new int[capacity];
-        front = -1;
-        rear = -1;
-        size = 0;
+    public DequeUsingLinkedList() {
+        deque = new LinkedList<>();
     }
 
     // Add an element to the front of the deque
     public void addFirst(int item) {
-        if (isFull()) {
-            System.out.println("Deque is full. Cannot add to the front.");
-            return;
-        }
-        if (isEmpty()) {
-            front = rear = 0;
-        } else {
-            front = (front - 1 + capacity) % capacity; // Circular increment
-        }
-        deque[front] = item;
-        size++;
+        deque.addFirst(item);
         System.out.println("Added to front: " + item);
     }
 
     // Add an element to the rear of the deque
     public void addLast(int item) {
-        if (isFull()) {
-            System.out.println("Deque is full. Cannot add to the rear.");
-            return;
-        }
-        if (isEmpty()) {
-            front = rear = 0;
-        } else {
-            rear = (rear + 1) % capacity; // Circular increment
-        }
-        deque[rear] = item;
-        size++;
+        deque.addLast(item);
         System.out.println("Added to rear: " + item);
     }
 
@@ -51,13 +28,7 @@ class DequeUsingArray {
             System.out.println("Deque is empty. Cannot remove from the front.");
             return -1;
         }
-        int item = deque[front];
-        if (front == rear) {
-            front = rear = -1; // Only one element, reset deque
-        } else {
-            front = (front + 1) % capacity; // Circular increment
-        }
-        size--;
+        int item = deque.removeFirst();
         System.out.println("Removed from front: " + item);
         return item;
     }
@@ -68,13 +39,7 @@ class DequeUsingArray {
             System.out.println("Deque is empty. Cannot remove from the rear.");
             return -1;
         }
-        int item = deque[rear];
-        if (front == rear) {
-            front = rear = -1; // Only one element, reset deque
-        } else {
-            rear = (rear - 1 + capacity) % capacity; // Circular decrement
-        }
-        size--;
+        int item = deque.removeLast();
         System.out.println("Removed from rear: " + item);
         return item;
     }
@@ -85,7 +50,7 @@ class DequeUsingArray {
             System.out.println("Deque is empty. No element to peek from the front.");
             return -1;
         }
-        return deque[front];
+        return deque.peekFirst();
     }
 
     // Get the last element of the deque
@@ -94,28 +59,23 @@ class DequeUsingArray {
             System.out.println("Deque is empty. No element to peek from the rear.");
             return -1;
         }
-        return deque[rear];
+        return deque.peekLast();
     }
 
     // Check if the deque is empty
     public boolean isEmpty() {
-        return size == 0;
-    }
-
-    // Check if the deque is full
-    public boolean isFull() {
-        return size == capacity;
+        return deque.isEmpty();
     }
 
     // Get the current size of the deque
     public int getSize() {
-        return size;
+        return deque.size();
     }
 }
 
-public class DequeUsingArray_Example {
+public class DequeUsingLinkedList_Example {
     public static void main(String[] args) {
-        DequeUsingArray deque = new DequeUsingArray(5);
+        DequeUsingLinkedList deque = new DequeUsingLinkedList();
 
         deque.addFirst(10);
         deque.addLast(20);
@@ -154,5 +114,6 @@ Added to front: 40
 Added to rear: 50
 Removing from front: 10
 Removing from front: 20
+Deque is empty. Cannot remove from the front.
 
  */

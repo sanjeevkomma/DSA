@@ -1,9 +1,14 @@
-package com.demo.nonlinear_ds.tree;
+package com.demo.nonlinear_ds.trie;
 
 // Trie (Prefix Tree)
 /*
 A trie is a tree data structure used for efficient retrieval of keys
 in a dataset of strings, often used for implementing dictionaries and autocomplete.
+
+Trie Example for Word Storage/Search
+
+1. Use Tree for general hierarchical/numeric data.
+2. Use Trie when you need fast word/prefix lookup
  */
 
 class TrieNode {
