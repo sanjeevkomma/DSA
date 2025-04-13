@@ -2,6 +2,7 @@ package com.demo.linear_ds.queue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.Stack;
 
 /* PriorityQueue as a Priority Queue
  * PriorityQueue provides a priority-based queue where elements are ordered according
