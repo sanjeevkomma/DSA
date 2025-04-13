@@ -3,6 +3,7 @@ package com.demo.linear_ds.deque;
 import java.util.LinkedList;
 
 class DequeUsingLinkedList {
+
     private LinkedList<Integer> deque;
 
     // Constructor to initialize the deque

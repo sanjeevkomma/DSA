@@ -1,4 +1,4 @@
-package com.demo.linear_ds.queue;
+package com.demo.linear_ds.deque;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

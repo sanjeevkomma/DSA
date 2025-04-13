@@ -29,9 +29,9 @@ Space Complexity: O(k) for the heap
 
 public class TopKElements_MinHeap {
 
-    public int findKthLargest(int[] nums, int k) {
+    public int findKthLargest(int nums[], int k) {
         // Min-Heap to store the k largest elements
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>(k);
+        PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>(k);
 
         for (int num : nums) {
             minHeap.add(num); // Add current number to the heap
