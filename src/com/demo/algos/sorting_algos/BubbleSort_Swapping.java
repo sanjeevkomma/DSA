@@ -6,7 +6,7 @@ Approach = Swapping Approach
 
 Time Complexity = O(n2)
 
-Space Complexity = Auxiliary space + Input size = O(1)
+Space Complexity = Auxiliary space + Input size = O(1) ( in-place sorting )
 
 **/
 
@@ -15,6 +15,8 @@ public class BubbleSort_Swapping {
 	public static void main(String[] args) {    
 
 		int arr[] = { 35, 10, -31, -11, 26 };    
+
+
 
 		bubbleSort_With_Swapping(arr);  
 
