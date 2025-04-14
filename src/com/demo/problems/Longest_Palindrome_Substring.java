@@ -6,6 +6,17 @@ package com.demo.problems;
 
 // Using Two Pointers (Expand Around Center) technique
 
+/*
+  Time-Complexity : O(n2)
+  Space-Complexity : O(1)
+ */
+
+/*  Why “Expand Around Center”?
+      * A palindrome mirrors around its center.
+      * There are 2n - 1 centers to consider (n odd + n-1 even)
+      * From each center, expand outward to find the longest palindrome
+ */
+
 public class Longest_Palindrome_Substring {
 
     public static void main(String[] args) {
@@ -24,10 +35,10 @@ public class Longest_Palindrome_Substring {
 
         for (int i = 0; i < str.length(); i++) {
             // Check odd-length palindromes (single character center)
-            int len1 = expandAroundCenter(str, i, i);
+            int len1 = expandAroundCenter(str, i, i); // length of the odd-length palindrome
 
             // Check even-length palindromes (two character center)
-            int len2 = expandAroundCenter(str, i, i + 1);
+            int len2 = expandAroundCenter(str, i, i + 1); // length of the even-length palindrome
 
             int len = Math.max(len1, len2); // Maximum of both lengths
 
@@ -44,8 +55,8 @@ public class Longest_Palindrome_Substring {
     // Helper method to expand around the center and find the length of the palindrome
     static int expandAroundCenter(String str, int leftIndex, int rightIndex) {
         while (leftIndex >= 0 && rightIndex < str.length() && str.charAt(leftIndex) == str.charAt(rightIndex)) {
-            leftIndex--;
-            rightIndex++;
+            leftIndex --;
+            rightIndex ++;
         }
         return rightIndex - leftIndex - 1; // Return the length of the palindrome
     }
