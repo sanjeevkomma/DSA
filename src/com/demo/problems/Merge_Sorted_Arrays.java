@@ -16,7 +16,11 @@ public class Merge_Sorted_Arrays {
     public static int[] mergeSortedArraysKeepDuplicates(int[] a, int[] b) {
         int m = a.length, n = b.length;
         int[] result = new int[m + n];
-        int i = 0, j = 0, k = 0;
+
+        int i = 0; // pointer for arr1
+        int j = 0; // pointer for arr2
+        int k = 0; // pointer for result array
+
 
         // Merge both arrays using two-pointer approach
         while (i < m && j < n) {
@@ -50,18 +54,18 @@ public class Merge_Sorted_Arrays {
                 if (k == 0 || result[k - 1] != a[i]) {
                     result[k++] = a[i];
                 }
-                i++;
+                i ++;
             } else if (b[j] < a[i]) {
                 if (k == 0 || result[k - 1] != b[j]) {
                     result[k++] = b[j];
                 }
-                j++;
+                j ++;
             } else { // a[i] == b[j], add only one copy
                 if (k == 0 || result[k - 1] != a[i]) {
                     result[k++] = a[i];
                 }
-                i++;
-                j++;
+                i ++;
+                j ++;
             }
         }
 
