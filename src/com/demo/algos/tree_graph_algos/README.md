@@ -7,6 +7,10 @@
 
 # Approaches for Dynamic Programming
 
+# Dijkstra’s Algorithm – Shortest Path Finder
+
+# Kruskal’s Algorithm – Minimum Spanning Tree (MST)
+
 
 # Reference
 * [Dynamic Programming](https://www.javatpoint.com/dynamic-programming)
