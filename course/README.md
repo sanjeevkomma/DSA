@@ -22,6 +22,8 @@
 5. 8 Key Data Structures That Power Modern Databases
 * ![image](https://github.com/user-attachments/assets/baf85556-badb-45f2-a556-b24528ccf611)
 * ![image](https://github.com/user-attachments/assets/4cbd0948-ff8e-4e20-aa52-cd26f211e452)
+6. Big-O Complexity
+* ![image](https://github.com/user-attachments/assets/ece1467f-0c0f-4dce-ab34-e777a0407677)
 
 
 
