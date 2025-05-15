@@ -10,7 +10,7 @@
 * [Leetcode-Solutions-GitHub](https://github.com/AnasImloul/Leetcode-Solutions)
 
 # Image
-1. Time Complexity of Algoritham
+1. Time Complexity of Algoritham [ Time complexity = (steps taken) or (number of operations) for the algorithm ]
 * ![image](https://github.com/user-attachments/assets/fc43df14-117b-403a-9737-c33abfd97984)
 * ![image](https://github.com/user-attachments/assets/92e87487-8b5e-4743-b718-9a914166e374)
 2. Space Complexity of Algorithm
