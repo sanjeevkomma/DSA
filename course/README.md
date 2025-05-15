@@ -23,6 +23,15 @@
 * ![image](https://github.com/user-attachments/assets/baf85556-badb-45f2-a556-b24528ccf611)
 * ![image](https://github.com/user-attachments/assets/4cbd0948-ff8e-4e20-aa52-cd26f211e452)
 6. Big-O Complexity
+| #Big-O Complexity  | #Discription |
+| :--- | :--- | 
+|O(1)| Accessing value in a hash table by key |
+|O(logn)| Divide and conquer algorithms|
+|O(n)| Traversing the list|
+|O(nlogn)| Iterations that use divide and conquer|
+|O(n2)| Nested loop on the same input|
+|O(2n)| Naive recursive Fibonacci sequence calculation|
+|O(n!)| Adding nested loop for each input|
 * ![image](https://github.com/user-attachments/assets/ece1467f-0c0f-4dce-ab34-e777a0407677)
 
 
