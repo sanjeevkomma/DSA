@@ -22,7 +22,7 @@
 5. 8 Key Data Structures That Power Modern Databases
 * ![image](https://github.com/user-attachments/assets/baf85556-badb-45f2-a556-b24528ccf611)
 * ![image](https://github.com/user-attachments/assets/4cbd0948-ff8e-4e20-aa52-cd26f211e452)
-6. Big-O Complexity
+6. Big-O Complexity<br>
 | #Big-O Complexity  | #Discription |
 | :--- | :--- | 
 |O(1)| Accessing value in a hash table by key |
