@@ -1,3 +1,5 @@
+package com.demo.core.algos.searching_algos;
+
 public class LinearSearch_Sorted_BruteForce {
     public static int linearSearch(int arr[], int target) {
         for (int i = 0; i < arr.length; i++) {
