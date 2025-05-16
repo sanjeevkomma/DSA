@@ -13,9 +13,9 @@
 1. Time Complexity of Algoritham [ Time complexity = (steps taken) or (number of operations) for the algorithm ]
 * ![image](https://github.com/user-attachments/assets/fc43df14-117b-403a-9737-c33abfd97984)
 * ![image](https://github.com/user-attachments/assets/92e87487-8b5e-4743-b718-9a914166e374)
+* ![image](https://github.com/user-attachments/assets/1f4d79c3-778b-467b-8b01-587da3bc9b8a)
 2. Space Complexity of Algorithm
 * ![image](https://github.com/user-attachments/assets/896392c4-2a9a-4f54-9a07-92e47ec0dc25)
-* ![image](https://github.com/user-attachments/assets/1f4d79c3-778b-467b-8b01-587da3bc9b8a)
 3. Time & Space Complexity of DSA
 * ![image](https://user-images.githubusercontent.com/7721150/183982045-1584a576-b76a-4c8e-b876-acbef838074c.png)
 4. DataStructures in Daily Life
