@@ -8,7 +8,7 @@ Time Complexity = O(logn)
 Space Complexity = Auxiliary space + Input size = O(1)
 
 **/
-public class BinarySearch_Sorted_Recursion { 
+public class BinarySearch_Sorted_Recursive {
 
 	public static void main(String args[]) {  
 
