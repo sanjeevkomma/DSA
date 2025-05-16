@@ -8,7 +8,7 @@ Time Complexity = O(n)
 Space Complexity = Auxiliary space + Input size = O(1)
 
 **/
-public class LinearSearch_UnSorted_BruteForce {
+public class LinearSearch_UnSorted_Iterative_BruteForce {
 
 	public static void main(String args[]) {  
 

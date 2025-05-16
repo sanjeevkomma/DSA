@@ -1,10 +1,10 @@
 package com.demo.core.algos.searching_algos;
 /*
-Time Complexity : O(log n)
-Space Complexity : O(1)
+Time Complexity = O(log n)
+Space Complexity = O(1)
 */  
 
-public class BinarySearch_Sorted_Iteration {
+public class BinarySearch_Sorted_Iterative {
   
 // Method to perform binary search iteratively
     public static int binarySearch(int[] arr, int target) {
