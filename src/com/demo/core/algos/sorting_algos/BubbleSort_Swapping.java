@@ -22,7 +22,7 @@ public class BubbleSort_Swapping {
 
 		for ( int i = 0; i < arr.length; i++ )  {  // n
 
-			for ( int j = i + 1; j < arr.length; j++ )   {  // n
+			for ( int j = i + 1; j < arr.length - i -1; j++ )   {  // n
 
 				if ( arr[i] > arr[j] )  {  
 
