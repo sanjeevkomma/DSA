@@ -14,9 +14,12 @@ public class BinarySearch_Sorted_Recursive {
 
 		int arr[] = { -49 , -27 , 0 , 8, 10, 22, 37, 44, 55, 69 }; // sorted given array in Ascending Order 
 
-		int val = -27; // value to be searched  
+		int val = 55; // value to be searched
 
-		int resultIndex = binarySearch_In_SortedArray(arr, 0, arr.length - 1, val); 
+		int beginIndex = 0;
+		int endIndex = arr.length - 1;
+
+		int resultIndex = binarySearch_In_SortedArray(arr, beginIndex, endIndex, val);
 
 		if ( resultIndex == -1 )  
 
@@ -24,12 +27,12 @@ public class BinarySearch_Sorted_Recursive {
 
 		else  
 
-			System.out.println("Element is present at " + ( resultIndex + 1) + " position of array");  
+			System.out.println("Element is present at " + ( resultIndex ) + " position of array");
 	}  
 
-	static int binarySearch_In_SortedArray( int arr[], int begIndex, int endIndex, int val ) {    
+	static int binarySearch_In_SortedArray( int arr[], int beginIndex, int endIndex, int val ) {
 
-		int midIndex = ( begIndex + endIndex ) / 2;    
+		int midIndex = ( beginIndex + endIndex ) / 2;
 
 			if ( val == arr[midIndex] )  {    
 
@@ -40,7 +43,7 @@ public class BinarySearch_Sorted_Recursive {
 			// if the item to be searched is smaller than middle, then it can only be in left sub array  
 			else if ( val < arr[midIndex] )  {  
 
-				return binarySearch_In_SortedArray(arr, begIndex, midIndex - 1, val); // Recursion   begIndex midIndex
+				return binarySearch_In_SortedArray(arr, beginIndex, midIndex - 1, val); // Recursion   begIndex midIndex
 			}    
 
 			// if the item to be searched is greater than middle, then it can only be in right sub array  

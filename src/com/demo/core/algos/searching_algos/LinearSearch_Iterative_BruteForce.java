@@ -16,7 +16,7 @@ public class LinearSearch_Iterative_BruteForce {
 
 		int val = -10; // value to be searched  
 
-		int resultIndex = linearSearch_In_UnSortedArray( arr,  val );   
+		int resultIndex = linearSearch_In_Array( arr,  val );
 
 		if ( resultIndex == -1 )  
 
@@ -27,7 +27,7 @@ public class LinearSearch_Iterative_BruteForce {
 			System.out.println("Element is present at " + resultIndex +" position of array");  
 	}  
 
-	static int linearSearch_In_UnSortedArray( int arr[],  int val ) {  
+	static int linearSearch_In_Array( int arr[],  int val ) {
 
 		for ( int i = 0; i < arr.length ; i++ )  {  
 

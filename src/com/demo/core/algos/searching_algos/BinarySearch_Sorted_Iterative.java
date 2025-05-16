@@ -2,25 +2,26 @@ package com.demo.core.algos.searching_algos;
 /*
 Time Complexity = O(log n)
 Space Complexity = O(1)
-*/  
+*/
 
 public class BinarySearch_Sorted_Iterative {
-  
-// Method to perform binary search iteratively
-    public static int binarySearch(int[] arr, int target) {
-       
-      int low = 0;
-      int high = arr.length - 1;
 
-        while (low <= high) {
-            int mid = low + (high - low) / 2; // Avoids overflow
+    // Method to perform binary search iteratively
+    public static int binarySearch(int arr[], int target) {
 
-            if (arr[mid] == target) {
-                return mid; // target found
-            } else if (arr[mid] < target) {
-                low = mid + 1; // search right half
+        int beginIndex = 0;
+        int endIndex = arr.length - 1;
+
+        while (beginIndex <= endIndex) {
+
+            int midIndex = (beginIndex + endIndex) / 2;
+
+            if (arr[midIndex] == target) {
+                return midIndex; // target found
+            } else if (arr[midIndex] < target) {
+                beginIndex = midIndex + 1; // search right half
             } else {
-                high = mid - 1; // search left half
+                endIndex = midIndex - 1; // search left half
             }
         }
 
