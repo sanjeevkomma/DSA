@@ -15,7 +15,7 @@ Steps :
 Choosing Pivot :
 
 1) Pivot can be random, i.e. select the random pivot from the given array.
-2) Pivot can either be the rightmost element of the leftmost element of the given array.
+2) Pivot can either be the rightmost element or the leftmost element of the given array.
 3) Select median as the pivot element
 
 

@@ -4,7 +4,7 @@ Time Complexity = O(log n)
 Space Complexity = O(1)
 */
 
-public class BinarySearch_Sorted_Iterative {
+public class BinarySearch_Sorted_Iteration {
 
     // Method to perform binary search iteratively
     public static int binarySearch(int arr[], int target) {

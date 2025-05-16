@@ -1,6 +1,6 @@
 package com.demo.core.algos.searching_algos;
 
-public class LinearSearch_Recursive_BruteForce {
+public class LinearSearch_Recursion_BruteForce {
 
     // Recursive method to search for a key in the array
     public static int linearSearch(int arr[], int index, int input) {
