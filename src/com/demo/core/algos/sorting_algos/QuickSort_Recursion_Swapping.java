@@ -24,7 +24,6 @@ Choosing Pivot :
 public class QuickSort_Recursion_Swapping {
 
 	public static void main(String[] args) {
-
 		int arr[] = { 222, 0, -11, 30, 24, -7, 31, 16, 39 };
 		quickSort(arr, 0, arr.length - 1);
 		System.out.println("After sorting array elements are - ");
@@ -33,7 +32,6 @@ public class QuickSort_Recursion_Swapping {
 
 
 	static void quickSort(int arr[], int beginIndex, int endIndex) {
-
 		if ( beginIndex < endIndex ) {
 			int pivotIndex = partition(arr, beginIndex, endIndex);
 			quickSort(arr, beginIndex, pivotIndex - 1);
@@ -42,20 +40,16 @@ public class QuickSort_Recursion_Swapping {
 	}
 
 	static int partition(int arr[], int beginIndex, int endIndex){
-
 		int pivot = arr[endIndex];
 		int pivotIndex = beginIndex - 1 ;
-
 		for( int i = beginIndex; i <= endIndex - 1; i ++ ){
 			if ( arr[i] < pivot ){
 				pivotIndex ++;
 				swap(arr, pivotIndex, i);
 			}
 		}
-
 		swap(arr, pivotIndex + 1, endIndex);
 		return pivotIndex + 1 ;
-
 	}
 
 	static void swap(int[] arr, int i, int j){
