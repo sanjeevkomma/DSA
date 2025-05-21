@@ -7,7 +7,6 @@ class QueueUsingArray {
     private int frontIndex;
     private int rearIndex;
     private int capacity;
-    private int size;
 
     // Constructor to initialize the queue
     public QueueUsingArray(int capacity) {
@@ -15,32 +14,25 @@ class QueueUsingArray {
         arr = new int[capacity];
         frontIndex = 0;
         rearIndex = -1;
-        size = 0;
     }
 
     // Add an element to the queue
     public void enqueue(int data) {
-        if (isFull()) {
+        if (rearIndex == capacity - 1) {
             System.out.println("Queue is full. Cannot enqueue " + data);
             return;
         }
-        rearIndex = (rearIndex + 1) % capacity; // Circular increment
-        arr[rearIndex] = data;
-        size ++;
+        arr[++rearIndex] = data;
         System.out.println("Enqueued: " + data);
     }
 
     // Remove an element from the queue
     public int dequeue() {
-        if (isEmpty()) {
-            System.out.println("Queue is empty. Cannot dequeue.");
+        if (frontIndex > rearIndex) {
+            System.out.println("Queue is empty.");
             return -1;
         }
-        int data = arr[frontIndex];
-        frontIndex = (frontIndex + 1) % capacity; // Circular increment
-        size --;
-        System.out.println("Dequeued: " + data);
-        return data;
+        return arr[frontIndex++];
     }
 
     // Get the front element of the queue
@@ -52,19 +44,8 @@ class QueueUsingArray {
         return arr[frontIndex];
     }
 
-    // Check if the queue is empty
     public boolean isEmpty() {
-        return size == 0;
-    }
-
-    // Check if the queue is full
-    public boolean isFull() {
-        return size == capacity;
-    }
-
-    // Get the current size of the queue
-    public int getSize() {
-        return size;
+        return frontIndex > rearIndex;
     }
 }
 
@@ -81,8 +62,6 @@ public class QueueUsingArray_Example {
 
         queue.dequeue();
         queue.dequeue();
-
-        System.out.println("Queue size is: " + queue.getSize());
 
         queue.enqueue(50);
         queue.enqueue(60);
