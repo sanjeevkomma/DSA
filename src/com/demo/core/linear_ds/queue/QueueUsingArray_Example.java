@@ -3,31 +3,31 @@ package com.demo.core.linear_ds.queue;
 // time complexity = O(1) for enqueue and dequeue operations
 
 class QueueUsingArray {
-    private int[] queue;
-    private int front;
-    private int rear;
+    private int arr[];
+    private int frontIndex;
+    private int rearIndex;
     private int capacity;
     private int size;
 
     // Constructor to initialize the queue
     public QueueUsingArray(int capacity) {
         this.capacity = capacity;
-        queue = new int[capacity];
-        front = 0;
-        rear = -1;
+        arr = new int[capacity];
+        frontIndex = 0;
+        rearIndex = -1;
         size = 0;
     }
 
     // Add an element to the queue
-    public void enqueue(int item) {
+    public void enqueue(int data) {
         if (isFull()) {
-            System.out.println("Queue is full. Cannot enqueue " + item);
+            System.out.println("Queue is full. Cannot enqueue " + data);
             return;
         }
-        rear = (rear + 1) % capacity; // Circular increment
-        queue[rear] = item;
-        size++;
-        System.out.println("Enqueued: " + item);
+        rearIndex = (rearIndex + 1) % capacity; // Circular increment
+        arr[rearIndex] = data;
+        size ++;
+        System.out.println("Enqueued: " + data);
     }
 
     // Remove an element from the queue
@@ -36,11 +36,11 @@ class QueueUsingArray {
             System.out.println("Queue is empty. Cannot dequeue.");
             return -1;
         }
-        int item = queue[front];
-        front = (front + 1) % capacity; // Circular increment
-        size--;
-        System.out.println("Dequeued: " + item);
-        return item;
+        int data = arr[frontIndex];
+        frontIndex = (frontIndex + 1) % capacity; // Circular increment
+        size --;
+        System.out.println("Dequeued: " + data);
+        return data;
     }
 
     // Get the front element of the queue
@@ -49,7 +49,7 @@ class QueueUsingArray {
             System.out.println("Queue is empty. No element to peek.");
             return -1;
         }
-        return queue[front];
+        return arr[frontIndex];
     }
 
     // Check if the queue is empty
