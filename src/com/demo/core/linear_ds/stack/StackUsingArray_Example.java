@@ -43,17 +43,28 @@ class StackUsingArray {
         }
         return arr[topIndex];
     }
+
+    public void printValues(){
+        for(int i = 0; i <= topIndex; i++){
+            System.out.print(arr[i] + " ");
+        }
+    }
 }
 
 public class StackUsingArray_Example {
 
     public static void main(String[] args) {
-        StackUsingArray stack = new StackUsingArray(5);
+        StackUsingArray stack = new StackUsingArray(6);
         stack.push(10);
         stack.push(20);
         stack.push(30);
+        stack.push(40);
+        stack.push(50);
+        stack.push(60);
 
-        System.out.println("Top element: " + stack.peek()); // Output: 30
-        System.out.println("Popped element: " + stack.pop()); // Output: 30
+        System.out.println("Top element: " + stack.peek()); // Output: 60
+        System.out.println("Popped element: " + stack.pop()); // Output: 60
+
+        stack.printValues();
     }
 }
