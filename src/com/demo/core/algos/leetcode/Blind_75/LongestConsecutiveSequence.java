@@ -19,46 +19,39 @@ Space Complexity: O(n)
  */
 public class LongestConsecutiveSequence {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
-        int nums[] = { 100, 4, 200, 1, 3, 2 };
-        int result = lengthOfLongestConsecutive(nums);
+        int nums[] = {100, 4, 200, 1, 3, 2};
+        int result = lengthOfLongestConsecutiveSequence(nums);
         System.out.println("The length of the longest consecutive elements sequence is " + result);
 
     }
 
 
-    public static int lengthOfLongestConsecutive(int nums[]) {
+    public static int lengthOfLongestConsecutiveSequence(int nums[]) {
         if (nums == null || nums.length == 0) return 0;
         Set<Integer> numSet = new HashSet<Integer>();
 
-        for(int num : nums){
+        for (int num : nums) {
             numSet.add(num);
         }
 
         int lengthOfLCS = 0;
 
-        for(int num : numSet ){
+        for (int num : numSet) {
 
-            if(!numSet.contains(num - 1)){
+            if (!numSet.contains(num - 1)) {
 
                 int currentNum = num;
                 int currentLengthOfLCS = 1;
 
-                while(numSet.contains(currentNum + 1)) {
+                while (numSet.contains(currentNum + 1)) {
                     currentNum = currentNum + 1;
                     currentLengthOfLCS = currentLengthOfLCS + 1;
                 }
-
                 lengthOfLCS = Math.max(lengthOfLCS, currentLengthOfLCS);
-
-
             }
         }
-
         return lengthOfLCS;
     }
-
-
-
 }
